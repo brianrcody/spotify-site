@@ -139,7 +139,10 @@ These are the exact shapes written by cron/scripts and consumed by the front-end
 
 Note: `renderAlbumCard()` in `app.js` handles two slightly different field name shapes
 (`album_art` vs `art`, `album_name` vs `name`, `album_url` vs `spotify_url`) because
-`last_track` and `last_album` use different keys.
+`last_track` and `last_album` use different keys. Additionally, when both `name` and
+`album_name` are present (i.e. `last_track` data), it renders a `.album-card-track`
+element (linked to `spotify_url`) above the album name. The album is visually demoted
+via the `.album-card-track + .album-card-album` CSS sibling rule.
 
 ---
 
@@ -212,5 +215,8 @@ They can be left in place or deleted after initial setup.
 |---|---|
 | Artist lightbox | Uses `position: fixed` modal rather than in-flow div (spec called for in-flow as a workaround for constrained environments that don't apply in a normal browser) |
 | Recently played | Single live call (`?limit=50`) serves both Last Played Album and Last Played Track, avoiding a redundant second call |
+| Last Played Track card | Shows track name (primary, linked) above album name (secondary, demoted). `renderAlbumCard()` detects the track shape via presence of both `name` and `album_name` |
+| Current Obsession label | "In heavy rotation" (spec said "Currently spinning") |
+| Avatar size | 112×112px (spec said 88×88px) |
 | Favorites | Manual script rather than cron — playlist is large and changes infrequently |
 | Last updated footer | Added at page bottom; not in original functional spec |

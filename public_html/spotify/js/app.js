@@ -96,7 +96,7 @@ function renderProfile(data) {
 }
 
 function renderCurrentObsession(data) {
-    renderAlbumCard(data, 'Currently spinning', 'current-obsession-content');
+    renderAlbumCard(data, 'In heavy rotation', 'current-obsession-content');
 }
 
 function renderRecentlyPlayed(data) {
@@ -117,17 +117,22 @@ function renderRecentlyPlayed(data) {
  * Shared album card renderer for Sections 3, 6, and 7.
  *
  * Expects data with keys: album_art|art, album_name|name, album_url|spotify_url,
- * artist_name, artist_url.
+ * artist_name, artist_url. When data has both `name` (track) and `album_name`,
+ * a track name line is rendered above the album name.
  */
 function renderAlbumCard(data, label, containerId) {
     const container = document.getElementById(containerId);
     container.innerHTML = '';
 
-    const artUrl   = data.album_art || data.art || '';
+    const artUrl    = data.album_art || data.art || '';
     const albumName = data.album_name || data.name || '';
     const albumUrl  = data.album_url || data.spotify_url || '';
     const artistName = data.artist_name || '';
     const artistUrl  = data.artist_url || '';
+
+    // Present when this card represents a track rather than a bare album.
+    const trackName = (data.name && data.album_name) ? data.name : null;
+    const trackUrl  = trackName ? (data.spotify_url || '') : '';
 
     const artDiv = el('div', { className: 'album-card-art' });
     if (artUrl) {
@@ -136,15 +141,24 @@ function renderAlbumCard(data, label, containerId) {
         artDiv.classList.add('album-card-art-placeholder');
     }
 
-    const infoDiv = el('div', { className: 'album-card-info' }, [
+    const infoChildren = [
         el('div', { className: 'album-card-label', text: label }),
+    ];
+    if (trackName) {
+        infoChildren.push(el('div', { className: 'album-card-track' }, [
+            trackUrl ? link(trackName, trackUrl) : document.createTextNode(trackName)
+        ]));
+    }
+    infoChildren.push(
         el('div', { className: 'album-card-album' }, [
             albumUrl ? link(albumName, albumUrl) : document.createTextNode(albumName)
         ]),
         el('div', { className: 'album-card-artist' }, [
             artistUrl ? link(artistName, artistUrl) : document.createTextNode(artistName)
         ]),
-    ]);
+    );
+
+    const infoDiv = el('div', { className: 'album-card-info' }, infoChildren);
 
     const card = el('div', { className: 'album-card' }, [artDiv, infoDiv]);
     container.appendChild(card);

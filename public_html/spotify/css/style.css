@@ -130,8 +130,8 @@ section:first-of-type {
 }
 
 .avatar {
-    width: 88px;
-    height: 88px;
+    width: 112px;
+    height: 112px;
     border-radius: 50%;
     border: 2px solid #2A2820;
     background: #1C1A14;
@@ -149,7 +149,7 @@ section:first-of-type {
 
 .avatar-initial {
     font-family: 'Playfair Display', serif;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     color: #D4913A;
 }
@@ -339,6 +339,22 @@ section:first-of-type {
     margin-bottom: 8px;
 }
 
+.album-card-track {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #EDE8DC;
+    margin-bottom: 2px;
+}
+
+.album-card-track a {
+    color: #EDE8DC;
+}
+
+.album-card-track a:hover {
+    color: #1DB954;
+}
+
 .album-card-album {
     font-family: 'Playfair Display', serif;
     font-size: 18px;
@@ -347,12 +363,28 @@ section:first-of-type {
     margin-bottom: 4px;
 }
 
+/* When a track name precedes the album name, treat album as secondary metadata */
+.album-card-track + .album-card-album {
+    font-size: 13px;
+    font-weight: 400;
+    color: #C9BFA8;
+    margin-bottom: 2px;
+}
+
 .album-card-album a {
     color: #EDE8DC;
 }
 
 .album-card-album a:hover {
     color: #1DB954;
+}
+
+.album-card-track + .album-card-album a {
+    color: #C9BFA8;
+}
+
+.album-card-track + .album-card-album a:hover {
+    color: #EDE8DC;
 }
 
 .album-card-artist {
