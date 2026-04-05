@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJProggyB's Musical World</title>
+
+    <style>
+        /* @font-face declarations — paths relative to webroot */
+        @font-face {
+            font-family: 'Playfair Display';
+            src: url('fonts/PlayfairDisplay-Regular.woff2') format('woff2');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Playfair Display';
+            src: url('fonts/PlayfairDisplay-Bold.woff2') format('woff2');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Playfair Display';
+            src: url('fonts/PlayfairDisplay-Italic.woff2') format('woff2');
+            font-weight: 400;
+            font-style: italic;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'IBM Plex Sans';
+            src: url('fonts/IBMPlexSans-Regular.woff2') format('woff2');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'IBM Plex Sans';
+            src: url('fonts/IBMPlexSans-Medium.woff2') format('woff2');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'IBM Plex Mono';
+            src: url('fonts/IBMPlexMono-Regular.woff2') format('woff2');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'IBM Plex Mono';
+            src: url('fonts/IBMPlexMono-Medium.woff2') format('woff2');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"
+            integrity="sha512-hKndbCBimMKNBTtqNBfEOFPMRaKh9qEYinhe7hFqU+oHRi1KzKC9KFoLLJm0vCBSfRmfuvz/cR4sRByDiSjQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+    <!-- Section 1: Header -->
+    <section id="header">
+        <div class="header-left">
+            <div class="eyebrow">Spotify · Personal Dashboard</div>
+            <h1 class="headline">DJProggyB's<br>Musical World</h1>
+            <p class="tagline">Insights into Brian's listening habits on Spotify...</p>
+        </div>
+        <div class="header-right">
+            <div class="avatar" id="avatar">
+                <span class="avatar-initial">B</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Now Playing -->
+    <section id="now-playing">
+        <div class="now-playing-top">
+            <div class="equalizer" id="equalizer" style="display: none;">
+                <div class="eq-bar eq-bar-1"></div>
+                <div class="eq-bar eq-bar-2"></div>
+                <div class="eq-bar eq-bar-3"></div>
+                <div class="eq-bar eq-bar-4"></div>
+            </div>
+            <div class="marquee-container" id="marquee-container">
+                <span class="nothing-playing" id="nothing-playing">Nothing playing right now.</span>
+                <div class="marquee" id="marquee" style="display: none;">
+                    <span class="marquee-inner" id="marquee-text-1"></span>
+                    <span class="marquee-inner" id="marquee-text-2"></span>
+                </div>
+            </div>
+        </div>
+        <div class="now-playing-bottom" id="now-playing-link-row" style="display: none;">
+            <a href="#" id="now-playing-link" target="_blank" rel="noopener">Open in Spotify ↗</a>
+        </div>
+    </section>
+
+    <!-- Section 3: Current Album Obsession -->
+    <section id="current-obsession">
+        <div class="section-header">
+            <h2 class="sp-section-title">Current Album Obsession</h2>
+            <div class="header-rule"></div>
+            <span class="header-label">Now</span>
+        </div>
+        <div class="content" id="current-obsession-content">
+            <span class="loading-text">Loading…</span>
+        </div>
+    </section>
+
+    <!-- Section 4: Top Artists This Month -->
+    <section id="top-artists">
+        <div class="section-header">
+            <h2 class="sp-section-title">Top Artists This Month</h2>
+            <div class="header-rule"></div>
+            <span class="header-label">Last 30 days</span>
+        </div>
+        <div class="content" id="top-artists-content">
+            <span class="loading-text">Loading…</span>
+        </div>
+    </section>
+
+    <!-- Section 5: Top Tracks This Month -->
+    <section id="top-tracks">
+        <div class="section-header">
+            <h2 class="sp-section-title">Top Tracks This Month</h2>
+            <div class="header-rule"></div>
+            <span class="header-label">Last 30 days</span>
+        </div>
+        <div class="content" id="top-tracks-content">
+            <span class="loading-text">Loading…</span>
+        </div>
+    </section>
+
+    <!-- Section 6: Last Played Album -->
+    <section id="last-album">
+        <div class="section-header">
+            <h2 class="sp-section-title">Last Played Album</h2>
+            <div class="header-rule"></div>
+            <span class="header-label">Recent</span>
+        </div>
+        <div class="content" id="last-album-content">
+            <span class="loading-text">Loading…</span>
+        </div>
+    </section>
+
+    <!-- Section 7: Last Played Track -->
+    <section id="last-track">
+        <div class="section-header">
+            <h2 class="sp-section-title">Last Played Track</h2>
+            <div class="header-rule"></div>
+            <span class="header-label">Recent</span>
+        </div>
+        <div class="content" id="last-track-content">
+            <span class="loading-text">Loading…</span>
+        </div>
+    </section>
+
+    <!-- Section 8: Favorites — Artists -->
+    <section id="favorites-artists">
+        <div class="section-header">
+            <h2 class="sp-section-title">Favorites: Artists</h2>
+            <div class="header-rule"></div>
+            <span class="header-label">All time</span>
+        </div>
+        <div class="content" id="favorites-artists-content">
+            <span class="loading-text">Loading…</span>
+        </div>
+    </section>
+
+    <!-- Section 9: Favorites — By Year -->
+    <section id="favorites-years">
+        <div class="section-header">
+            <h2 class="sp-section-title">Favorites: By Year</h2>
+            <div class="header-rule"></div>
+            <span class="header-label">Release year</span>
+        </div>
+        <div class="content" id="favorites-years-content">
+            <span class="loading-text">Loading…</span>
+        </div>
+    </section>
+
+    <footer id="site-footer">
+        <span id="last-updated-label"></span>
+    </footer>
+
+    <!-- Artist Lightbox -->
+    <div id="lightbox-overlay" style="display: none;">
+        <div id="lightbox-panel">
+            <div id="lightbox-header">
+                <span id="lightbox-title"></span>
+                <button id="lightbox-close">×</button>
+            </div>
+            <div id="lightbox-tracks"></div>
+        </div>
+    </div>
+
+    <!-- Custom chart tooltip -->
+    <div id="artist-tooltip" style="display: none;">
+        <div id="tooltip-name"></div>
+        <div id="tooltip-count"></div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

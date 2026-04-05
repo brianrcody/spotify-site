@@ -1,0 +1,14 @@
+# Docs (local reference only)
+docs/
+
+# Generated data files
+spotify-private/data/*.json
+
+# Font binaries (self-hosted, not tracked)
+public_html/spotify/fonts/*.woff2
+
+# Cron log
+spotify-private/cron.log
+
+# Local tooling
+.DS_Store

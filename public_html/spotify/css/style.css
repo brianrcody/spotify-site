@@ -1,0 +1,744 @@
+/* ============================================================
+   Spotify Personal Site — style.css
+   Visual spec: "The Record Shop After Hours"
+   ============================================================ */
+
+/* --- Reset & Base --- */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111009;
+    color: #EDE8DC;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.15s, border-color 0.15s;
+}
+
+/* --- Section Layout --- */
+
+section {
+    padding: 40px 48px;
+    border-top: 1px solid #2A2820;
+}
+
+section:first-of-type {
+    border-top: none;
+}
+
+.section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.sp-section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #EDE8DC;
+    white-space: nowrap;
+}
+
+.header-rule {
+    flex: 1;
+    height: 1px;
+    background: #2A2820;
+    min-width: 24px;
+}
+
+.header-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 400;
+    color: #5A5548;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.loading-text {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    color: #5A5548;
+}
+
+.error-text {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    color: #5A5548;
+    font-style: italic;
+}
+
+/* ============================================================
+   Section 1: Header
+   ============================================================ */
+
+#header {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 48px;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 400;
+    color: #1DB954;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #EDE8DC;
+    line-height: 1.15;
+    margin-bottom: 12px;
+}
+
+.tagline {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8C8678;
+    line-height: 1.6;
+    max-width: 420px;
+}
+
+.header-right {
+    flex-shrink: 0;
+}
+
+.avatar {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    border: 2px solid #2A2820;
+    background: #1C1A14;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.avatar-initial {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #D4913A;
+}
+
+/* ============================================================
+   Section 2: Now Playing
+   ============================================================ */
+
+#now-playing {
+    background: #0D0C08;
+    padding: 20px 48px;
+    border-top: 1px solid #2A2820;
+}
+
+.now-playing-top {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Equalizer */
+.equalizer {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    height: 20px;
+    width: 20px;
+    flex-shrink: 0;
+}
+
+.eq-bar {
+    width: 3px;
+    border-radius: 1px;
+    background: #1DB954;
+    transform-origin: bottom;
+}
+
+.eq-bar-1 {
+    height: 8px;
+    animation: eq-bounce 0.55s ease-in-out infinite alternate;
+}
+.eq-bar-2 {
+    height: 14px;
+    animation: eq-bounce 0.70s ease-in-out infinite alternate;
+    animation-delay: 0.15s;
+}
+.eq-bar-3 {
+    height: 18px;
+    animation: eq-bounce 0.45s ease-in-out infinite alternate;
+    animation-delay: 0.05s;
+}
+.eq-bar-4 {
+    height: 10px;
+    animation: eq-bounce 0.80s ease-in-out infinite alternate;
+    animation-delay: 0.25s;
+}
+
+@keyframes eq-bounce {
+    0%   { transform: scaleY(0.25); }
+    100% { transform: scaleY(1); }
+}
+
+/* Marquee */
+.marquee-container {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    height: 24px;
+}
+
+.nothing-playing {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    color: #5A5548;
+    line-height: 24px;
+}
+
+.marquee {
+    display: flex;
+    width: max-content;
+    animation: marquee-scroll 18s linear infinite;
+}
+
+.marquee-inner {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #C9BFA8;
+    white-space: nowrap;
+    padding-right: 60px;
+}
+
+.marquee-sep {
+    color: #D4913A;
+}
+
+@keyframes marquee-scroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* Now Playing link */
+.now-playing-bottom {
+    margin-top: 10px;
+    padding-left: 32px;
+}
+
+.now-playing-bottom a {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 400;
+    color: #1DB954;
+    border-bottom: 1px solid #0F6E2E;
+    padding-bottom: 1px;
+}
+
+.now-playing-bottom a:hover {
+    color: #3DDB6E;
+    border-color: #3DDB6E;
+}
+
+/* ============================================================
+   Sections 3, 6, 7: Album Card (shared component)
+   ============================================================ */
+
+.album-card {
+    background: #1C1A14;
+    border-radius: 8px;
+    border: 1px solid #2A2820;
+    padding: 20px;
+    display: flex;
+    gap: 24px;
+    max-width: 520px;
+}
+
+.album-card-art {
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2A2820;
+    overflow: hidden;
+}
+
+.album-card-art img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Vinyl placeholder rings */
+.album-card-art-placeholder {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.album-card-art-placeholder::after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    border: 1px solid #3A3628;
+    box-shadow:
+        0 0 0 6px #2A2820,
+        0 0 0 7px #3A3628,
+        0 0 0 14px #2A2820,
+        0 0 0 15px #3A3628;
+}
+
+.album-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+}
+
+.album-card-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 400;
+    color: #D4913A;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.album-card-album {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #EDE8DC;
+    margin-bottom: 4px;
+}
+
+.album-card-album a {
+    color: #EDE8DC;
+}
+
+.album-card-album a:hover {
+    color: #1DB954;
+}
+
+.album-card-artist {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8C8678;
+}
+
+.album-card-artist a {
+    color: #8C8678;
+}
+
+.album-card-artist a:hover {
+    color: #C9BFA8;
+}
+
+/* Current obsession uses larger art */
+#current-obsession .album-card-art {
+    width: 120px;
+    height: 120px;
+}
+
+#last-album .album-card-art,
+#last-track .album-card-art {
+    width: 100px;
+    height: 100px;
+}
+
+/* "Been shufflin'" fallback */
+.shufflin-fallback {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #5A5548;
+}
+
+/* ============================================================
+   Section 4: Top Artists This Month
+   ============================================================ */
+
+.top-artists-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+}
+
+.top-artist-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.top-artist-img {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #1C1A14;
+    border: 1px solid #2A2820;
+    overflow: hidden;
+    transition: border-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-artist-img:hover {
+    border-color: #D4913A;
+}
+
+.top-artist-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.top-artist-img .artist-initial {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #3A3628;
+}
+
+.top-artist-name {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.rank-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #D4913A;
+    flex-shrink: 0;
+}
+
+.top-artist-name a {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8C8678;
+    line-height: 1.3;
+}
+
+.top-artist-name a:hover {
+    color: #C9BFA8;
+}
+
+/* ============================================================
+   Section 5: Top Tracks This Month
+   ============================================================ */
+
+.top-tracks-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-track-row {
+    display: grid;
+    grid-template-columns: 32px 1fr;
+    gap: 16px;
+    align-items: baseline;
+    padding: 11px 0;
+    border-bottom: 1px solid #1C1A14;
+    transition: background 0.15s;
+}
+
+.top-track-row:hover {
+    background: #161410;
+    margin: 0 -48px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.track-rank {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #D4913A;
+    text-align: right;
+}
+
+.track-info {
+    min-width: 0;
+}
+
+.track-name {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.track-name a {
+    color: #C9BFA8;
+}
+
+.track-name a:hover {
+    color: #1DB954;
+}
+
+.track-artist {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.track-artist a {
+    color: #5A5548;
+}
+
+.track-artist a:hover {
+    color: #8C8678;
+}
+
+/* ============================================================
+   Sections 8 & 9: Chart containers
+   ============================================================ */
+
+.chart-wrapper {
+    position: relative;
+}
+
+#favorites-artists-chart-container {
+    height: 320px;
+}
+
+#favorites-years-chart-container {
+    height: 260px;
+}
+
+/* Custom tooltip for artists chart */
+#artist-tooltip {
+    position: fixed;
+    background: #1C1A14;
+    border: 1px solid #3A3628;
+    border-radius: 6px;
+    padding: 8px 12px;
+    pointer-events: none;
+    z-index: 500;
+}
+
+#tooltip-name {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #EDE8DC;
+}
+
+#tooltip-count {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: #1DB954;
+}
+
+/* ============================================================
+   Lightbox
+   ============================================================ */
+
+#lightbox-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+#lightbox-panel {
+    background: #1C1A14;
+    border: 1px solid #3A3628;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 480px;
+    max-height: 80vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#lightbox-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    border-bottom: 1px solid #2A2820;
+    flex-shrink: 0;
+}
+
+#lightbox-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #EDE8DC;
+}
+
+#lightbox-close {
+    background: none;
+    border: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    color: #5A5548;
+    cursor: pointer;
+    padding: 0 4px;
+    transition: color 0.15s;
+}
+
+#lightbox-close:hover {
+    color: #C9BFA8;
+}
+
+#lightbox-tracks {
+    overflow-y: auto;
+    flex: 1;
+}
+
+.lightbox-track-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 12px;
+    padding: 8px 20px;
+    border-bottom: 1px solid #1C1A14;
+}
+
+.lightbox-track-name {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    color: #C9BFA8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lightbox-track-album {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    color: #5A5548;
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right;
+}
+
+/* ============================================================
+   Footer
+   ============================================================ */
+
+#site-footer {
+    padding: 24px 48px;
+    border-top: 1px solid #2A2820;
+}
+
+#last-updated-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: #5A5548;
+}
+
+/* ============================================================
+   Responsive adjustments
+   ============================================================ */
+
+@media (max-width: 768px) {
+    section {
+        padding: 32px 24px;
+    }
+
+    #header {
+        padding: 32px 24px;
+    }
+
+    #now-playing {
+        padding: 16px 24px;
+    }
+
+    .headline {
+        font-size: 32px;
+    }
+
+    .top-artists-grid {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+    }
+
+    .top-track-row:hover {
+        margin: 0 -24px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    #site-footer {
+        padding: 24px 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .top-artists-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #header {
+        flex-direction: column-reverse;
+        gap: 16px;
+    }
+
+    .album-card {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    #current-obsession .album-card-art,
+    #last-album .album-card-art,
+    #last-track .album-card-art {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+    }
+}
