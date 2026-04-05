@@ -92,7 +92,7 @@ placeholder values.
 ### `public_html/spotify/js/app.js`
 Vanilla JS, no framework. On `DOMContentLoaded`, all seven pre-generated data fetches
 run in parallel; each section renders independently on resolution. `pollNowPlaying()`
-runs immediately then every 30 seconds. Chart.js (v4.4.4) loaded from CDN.
+runs immediately then every 30 seconds. Chart.js (v4.5.0) loaded from CDN.
 
 ### `public_html/spotify/css/style.css`
 Design concept: "The Record Shop After Hours." All colors are hardcoded hex — no CSS

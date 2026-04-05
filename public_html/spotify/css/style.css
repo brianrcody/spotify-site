@@ -69,6 +69,26 @@ section:first-of-type {
     white-space: nowrap;
 }
 
+.section-description {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    color: #8C8678;
+    margin-top: -16px;
+    margin-bottom: 24px;
+}
+
+.section-description a {
+    color: #C9BFA8;
+    text-decoration: underline;
+    text-decoration-color: #5A5548;
+    text-underline-offset: 3px;
+}
+
+.section-description a:hover {
+    color: #EDE8DC;
+    text-decoration-color: #C9BFA8;
+}
+
 .loading-text {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 14px;
