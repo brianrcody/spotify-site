@@ -21,7 +21,7 @@ Three data tiers:
 | Pre-generated | Profile, top artists, top tracks, current obsession | Cron writes JSON to disk | Daily (3 AM) |
 | On-demand | Last played track and album | PHP proxies live Spotify call | Per page load |
 | Polled | Now Playing | JS polls PHP endpoint | Every 30 s |
-| Manual | Favorites (1000+ tracks) | Run `fetch-favorites.php` by hand | On demand |
+| Manual | Favorites (1000+ tracks) | Run a favorites script by hand (see scripts below) | On demand |
 
 `index.html` is a static file. All data arrives via `fetch()` calls to PHP endpoints under `/api/`. Token management is entirely server-side.
 
@@ -48,7 +48,9 @@ spotify-private/            ← NOT web-accessible
   lib/spotify.php           ← shared auth + API helpers
   scripts/
     cron-daily.php          ← daily cron job
-    fetch-favorites.php     ← manual favorites aggregation
+    fetch-favorites.php     ← manual favorites aggregation (uses Spotify release_date)
+    fetch-favorites-mb.php  ← manual favorites aggregation using MusicBrainz for original release years
+    findAlbumYears.php      ← diagnostic: inspect year resolution before a full MB run
   data/                     ← pre-generated JSON (must be writable, not in git)
 ```
 

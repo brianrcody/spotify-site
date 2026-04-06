@@ -19,7 +19,7 @@ Live at: `https://yourdomain.com/spotify/` (adjust to actual domain)
 | Pre-generated | Profile, top artists, top tracks, current obsession | Cron writes JSON to disk | Daily (3 AM) |
 | On-demand (live) | Last played album, last played track | PHP proxies live Spotify call | Per page load |
 | Polled (live) | Now Playing | JS polls PHP endpoint | Every 30 s |
-| Manual | Favorites (1000+ tracks) | Run `fetch-favorites.php` by hand | On demand |
+| Manual | Favorites (1000+ tracks) | Run a favorites script by hand (see scripts below) | On demand |
 
 `index.html` is a static file. All data arrives via `fetch()` to PHP endpoints under
 `/api/`. PHP endpoints either serve pre-generated JSON from `spotify-private/data/` or
@@ -55,7 +55,9 @@ proxy live Spotify API calls. Token management is entirely server-side.
     lib/spotify.php             ← shared auth + API helpers
     scripts/
       cron-daily.php            ← daily cron: profile, top artists, top tracks, obsession
-      fetch-favorites.php       ← manual: full Favorites playlist aggregation
+      fetch-favorites.php       ← manual: full Favorites playlist aggregation (uses Spotify release_date)
+      fetch-favorites-mb.php    ← manual: same, but resolves original release years via MusicBrainz (~1s/album)
+      findAlbumYears.php        ← diagnostic: inspects MB year resolution without writing favorites.json
     data/                       ← pre-generated JSON files (writable by PHP + cron)
 ```
 
@@ -200,7 +202,10 @@ expressions are all available.
 
 **Ongoing:**
 - `cron-daily.php` runs automatically at 3 AM, refreshing profile/artists/tracks/obsession.
-- Re-run `fetch-favorites.php` manually after meaningfully updating the Favorites playlist.
+- Re-run a favorites script manually after meaningfully updating the Favorites playlist:
+  - `fetch-favorites.php` — fast (~15s), uses Spotify's `release_date` directly
+  - `fetch-favorites-mb.php` — accurate (~1s/unique album), resolves original release years via MusicBrainz
+  - Run `findAlbumYears.php` first to audit year resolution before committing to a full MB run
 - If the refresh token is ever revoked, re-run the setup flow via `step1.php`.
 - Check `spotify-private/cron.log` if any section stops updating.
 
