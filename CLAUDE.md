@@ -55,9 +55,10 @@ proxy live Spotify API calls. Token management is entirely server-side.
     lib/spotify.php             ← shared auth + API helpers
     scripts/
       cron-daily.php            ← daily cron: profile, top artists, top tracks, obsession
-      fetch-favorites.php       ← manual: full Favorites playlist aggregation (uses Spotify release_date)
-      fetch-favorites-mb.php    ← manual: same, but resolves original release years via MusicBrainz (~1s/album)
-      findAlbumYears.php        ← diagnostic: inspects MB year resolution without writing favorites.json
+      fetch-favorites.php              ← manual: full Favorites playlist aggregation (uses Spotify release_date)
+      fetch-favorites-mb.php           ← manual: same, but resolves original release years via MusicBrainz release-group lookups (~1s/album)
+      fetch-favorites-mb-official.php  ← manual: best approach — MB recording search scanning all official release dates (~1s/unique track)
+      findAlbumYears.php               ← diagnostic: inspects MB year resolution without writing favorites.json
     data/                       ← pre-generated JSON files (writable by PHP + cron)
 ```
 
@@ -197,14 +198,15 @@ expressions are all available.
 3. Edit `spotify-private/config.php` with client ID, redirect URI, and passphrase.
 4. Set permissions: `chmod 755 spotify-private/data/`, `chmod 666 token-cache.json`.
 5. Visit `setup/step1.php?key=PASSPHRASE`, authorize, copy the refresh token into `config.php`.
-6. Run `php cron-daily.php` and `php fetch-favorites.php` manually to populate data.
+6. Run `php cron-daily.php` and `php fetch-favorites-mb-official.php` manually to populate data.
 7. Set up cPanel cron: `0 3 * * * /usr/bin/php .../cron-daily.php >> .../cron.log 2>&1`.
 
 **Ongoing:**
 - `cron-daily.php` runs automatically at 3 AM, refreshing profile/artists/tracks/obsession.
 - Re-run a favorites script manually after meaningfully updating the Favorites playlist:
-  - `fetch-favorites.php` — fast (~15s), uses Spotify's `release_date` directly
-  - `fetch-favorites-mb.php` — accurate (~1s/unique album), resolves original release years via MusicBrainz
+  - `fetch-favorites-mb-official.php` — **best approach**: queries MB recording search, scans all official release dates across all above-threshold recordings to find the true earliest year (~1s/unique track)
+  - `fetch-favorites-mb.php` — queries MB release-group `first-release-date` (~1s/unique album; faster for large playlists but `first-release-date` is often poorly populated)
+  - `fetch-favorites.php` — fast (~15s), uses Spotify's `release_date` directly; least accurate
   - Run `findAlbumYears.php` first to audit year resolution before committing to a full MB run
 - If the refresh token is ever revoked, re-run the setup flow via `step1.php`.
 - Check `spotify-private/cron.log` if any section stops updating.

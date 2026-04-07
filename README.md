@@ -48,9 +48,10 @@ spotify-private/            ← NOT web-accessible
   lib/spotify.php           ← shared auth + API helpers
   scripts/
     cron-daily.php          ← daily cron job
-    fetch-favorites.php     ← manual favorites aggregation (uses Spotify release_date)
-    fetch-favorites-mb.php  ← manual favorites aggregation using MusicBrainz for original release years
-    findAlbumYears.php      ← diagnostic: inspect year resolution before a full MB run
+    fetch-favorites.php              ← manual favorites aggregation (uses Spotify release_date)
+    fetch-favorites-mb.php           ← manual favorites aggregation using MusicBrainz release-group lookups
+    fetch-favorites-mb-official.php  ← manual favorites aggregation using MusicBrainz recording search (best)
+    findAlbumYears.php               ← diagnostic: inspect year resolution before a full MB run
   data/                     ← pre-generated JSON (must be writable, not in git)
 ```
 
@@ -63,7 +64,7 @@ spotify-private/            ← NOT web-accessible
 3. Edit `spotify-private/config.php` with your client ID, redirect URI, and a setup passphrase.
 4. Set permissions: `chmod 755 spotify-private/data/` and `chmod 666 spotify-private/token-cache.json`.
 5. Visit `setup/step1.php?key=YOUR_PASSPHRASE`, authorize the app, and copy the refresh token into `config.php`.
-6. Run `php cron-daily.php` and `php fetch-favorites.php` manually to generate the initial data files.
+6. Run `php cron-daily.php` and `php fetch-favorites-mb-official.php` manually to generate the initial data files.
 7. Add a cron job: `0 3 * * * /usr/bin/php /path/to/spotify-private/scripts/cron-daily.php >> /path/to/spotify-private/cron.log 2>&1`
 
 ## Fonts
