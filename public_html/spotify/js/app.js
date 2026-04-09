@@ -464,6 +464,21 @@ function renderYearsChart(byYear) {
         yearsChart.data.datasets[0].backgroundColor = [...baseColors];
         yearsChart.update('none');
     });
+
+    // Click handler — open lightbox
+    canvas.addEventListener('click', (e) => {
+        const elements = yearsChart.getElementsAtEventForMode(e, 'nearest', { intersect: true }, true);
+        if (elements.length) {
+            openYearLightbox(byYear[elements[0].index]);
+        }
+    });
+
+    // Pointer cursor on hoverable bars
+    canvas.style.cursor = 'default';
+    canvas.addEventListener('mousemove', (e) => {
+        const elements = yearsChart.getElementsAtEventForMode(e, 'nearest', { intersect: true }, true);
+        canvas.style.cursor = elements.length ? 'pointer' : 'default';
+    });
 }
 
 // -------------------------------------------------------------------
@@ -497,6 +512,40 @@ function openArtistLightbox(artistData) {
     };
 
     // Escape key
+    const escHandler = (e) => {
+        if (e.key === 'Escape') {
+            dismiss();
+            document.removeEventListener('keydown', escHandler);
+        }
+    };
+    document.addEventListener('keydown', escHandler);
+}
+
+function openYearLightbox(yearData) {
+    const overlay = document.getElementById('lightbox-overlay');
+    const title   = document.getElementById('lightbox-title');
+    const tracks  = document.getElementById('lightbox-tracks');
+    const close   = document.getElementById('lightbox-close');
+
+    title.textContent = String(yearData.year);
+    tracks.innerHTML = '';
+
+    for (const t of (yearData.tracks || [])) {
+        tracks.appendChild(el('div', { className: 'lightbox-track-row' }, [
+            el('span', { className: 'lightbox-track-name', text: t.name }),
+            el('span', { className: 'lightbox-track-album', text: t.artist }),
+        ]));
+    }
+
+    overlay.style.display = 'flex';
+
+    const dismiss = () => { overlay.style.display = 'none'; };
+
+    close.onclick = dismiss;
+    overlay.onclick = (e) => {
+        if (e.target === overlay) dismiss();
+    };
+
     const escHandler = (e) => {
         if (e.key === 'Escape') {
             dismiss();

@@ -132,7 +132,7 @@ These are the exact shapes written by cron/scripts and consumed by the front-end
 
 **`current-obsession.json`** — `{ "album_name", "album_url", "album_art", "artist_name", "artist_url" }`
 
-**`favorites.json`** — `{ "top_artists": [{ "name", "count", "tracks": [{ "name", "album" }] }], "by_year": [{ "year", "count" }] }`
+**`favorites.json`** — `{ "top_artists": [{ "name", "count", "tracks": [{ "name", "album" }] }], "by_year": [{ "year", "count", "tracks": [{ "name", "artist" }] }] }`
 
 **`last-updated.json`** — `{ "updated_at": 1712345678 }` (Unix timestamp)
 

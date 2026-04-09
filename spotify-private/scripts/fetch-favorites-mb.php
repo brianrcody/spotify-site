@@ -254,18 +254,30 @@ unset($artist);
 // --- Year histogram ---
 
 $year_buckets = [];
+$year_tracks  = [];
 foreach ($valid_items as $item) {
-    $album_id = $item['item']['album']['id'];
+    $track    = $item['item'];
+    $album_id = $track['album']['id'];
     $year     = $year_map[$album_id] ?? null;
     if ($year === null) {
         continue;
     }
     $year_buckets[$year] = ($year_buckets[$year] ?? 0) + 1;
+    $year_tracks[$year][] = [
+        'name'   => $track['name'] ?? '',
+        'artist' => $track['artists'][0]['name'] ?? '',
+    ];
 }
 
 ksort($year_buckets);
+
+foreach ($year_tracks as &$yt) {
+    usort($yt, fn($a, $b) => [$a['artist'], $a['name']] <=> [$b['artist'], $b['name']]);
+}
+unset($yt);
+
 $by_year = array_map(
-    fn($year, $count) => ['year' => (int)$year, 'count' => $count],
+    fn($year, $count) => ['year' => (int)$year, 'count' => $count, 'tracks' => $year_tracks[$year]],
     array_keys($year_buckets),
     $year_buckets
 );

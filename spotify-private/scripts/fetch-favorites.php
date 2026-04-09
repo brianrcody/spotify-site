@@ -96,10 +96,13 @@ fwrite(STDOUT, "Top artist: {$top_artists[0]['name']} ({$top_artists[0]['count']
 // --- Aggregate by year ---
 $remaster_keywords = ['remaster', 'reissue', 'anniversary'];
 $year_counts = [];
+$year_tracks = [];
 
 foreach ($items as $entry) {
     $track = $entry['item'];
-    $album_name = $track['album']['name'] ?? '';
+    $album_name  = $track['album']['name'] ?? '';
+    $track_name  = $track['name'] ?? '';
+    $artist_name = $track['artists'][0]['name'] ?? '';
 
     // Skip remasters/reissues
     $lower = strtolower($album_name);
@@ -121,11 +124,18 @@ foreach ($items as $entry) {
     }
 
     $year_counts[$year] = ($year_counts[$year] ?? 0) + 1;
+    $year_tracks[$year][] = ['name' => $track_name, 'artist' => $artist_name];
 }
 
 ksort($year_counts);
+
+foreach ($year_tracks as &$yt) {
+    usort($yt, fn($a, $b) => [$a['artist'], $a['name']] <=> [$b['artist'], $b['name']]);
+}
+unset($yt);
+
 $by_year = array_map(
-    fn($year, $count) => ['year' => $year, 'count' => $count],
+    fn($year, $count) => ['year' => $year, 'count' => $count, 'tracks' => $year_tracks[$year]],
     array_keys($year_counts),
     array_values($year_counts)
 );

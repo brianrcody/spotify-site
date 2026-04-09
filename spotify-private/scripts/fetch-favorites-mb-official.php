@@ -402,16 +402,23 @@ $top_artists = array_slice(array_values($artist_map), 0, 50);
 // ---------------------------------------------------------------------------
 
 $year_counts = [];
+$year_tracks = [];
 foreach ($resolved as $r) {
     if ($r['year'] === null) {
         continue;
     }
     $year_counts[$r['year']] = ($year_counts[$r['year']] ?? 0) + 1;
+    $year_tracks[$r['year']][] = ['name' => $r['track_name'], 'artist' => $r['artist_name']];
 }
 ksort($year_counts);
 
+foreach ($year_tracks as &$yt) {
+    usort($yt, fn($a, $b) => [$a['artist'], $a['name']] <=> [$b['artist'], $b['name']]);
+}
+unset($yt);
+
 $by_year = array_map(
-    fn($year, $count) => ['year' => $year, 'count' => $count],
+    fn($year, $count) => ['year' => $year, 'count' => $count, 'tracks' => $year_tracks[$year]],
     array_keys($year_counts),
     array_values($year_counts)
 );
