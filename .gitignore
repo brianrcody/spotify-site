@@ -1,8 +1,9 @@
 # Docs (local reference only)
 docs/
 
-# Generated data files
+# Generated data files (daily cron output — not tracked)
 spotify-private/data/*.json
+!spotify-private/data/favorites.json
 
 # Font binaries (self-hosted, not tracked)
 public_html/spotify/fonts/*.woff2

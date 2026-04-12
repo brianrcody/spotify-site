@@ -60,6 +60,12 @@ proxy live Spotify API calls. Token management is entirely server-side.
       fetch-favorites-mb-official.php  ← manual: best approach — MB recording search scanning all official release dates (~1s/unique track)
       findAlbumYears.php               ← diagnostic: inspects MB year resolution without writing favorites.json
     data/                       ← pre-generated JSON files (writable by PHP + cron)
+                                   favorites.json is tracked in git (see below); others are not
+
+  .claude/
+    skills/
+      correct-years/SKILL.md    ← Claude skill: interactively correct release years in favorites.json
+      add-new-song/SKILL.md     ← Claude skill: add a single track to favorites.json
 ```
 
 **Critical constraint:** `spotify-private/` must remain outside `public_html/`. On
@@ -208,11 +214,45 @@ expressions are all available.
   - `fetch-favorites-mb.php` — queries MB release-group `first-release-date` (~1s/unique album; faster for large playlists but `first-release-date` is often poorly populated)
   - `fetch-favorites.php` — fast (~15s), uses Spotify's `release_date` directly; least accurate
   - Run `findAlbumYears.php` first to audit year resolution before committing to a full MB run
+- Even the best automated script (`fetch-favorites-mb-official.php`) produces a significant number of wrong release years. Use the `/correct-years` and `/add-new-song` Claude skills (see below) to fix data incrementally rather than re-running the full script and reapplying corrections.
+- `spotify-private/data/favorites.json` is tracked in git (other data files are not). After any manual edits — whether via the Claude skills or otherwise — commit the updated file. This gives a recoverable snapshot if the live copy is ever corrupted or overwritten.
 - If the refresh token is ever revoked, re-run the setup flow via `step1.php`.
 - Check `spotify-private/cron.log` if any section stops updating.
 
 **Setup scripts** (`step1.php`, `callback.php`) are protected by `SETUP_PASSPHRASE`.
 They can be left in place or deleted after initial setup.
+
+---
+
+## Claude skills for favorites data management
+
+The automated favorites scripts produce a meaningful number of incorrect release years
+(MusicBrainz data is incomplete and Spotify's `release_date` often reflects a reissue).
+Two project-local Claude skills provide an incremental correction workflow that avoids
+regenerating the entire file and reapplying prior corrections.
+
+### `/correct-years [year] [artist]`
+Defined in `.claude/skills/correct-years/SKILL.md`.
+
+Starts an interactive session that walks through every track in a chosen year (optionally
+filtered to a single artist), presenting each one for review. For each track, Claude
+suggests a corrected year based on its own knowledge; the user accepts, overrides, or
+skips. Accepted corrections are written to `favorites.json` immediately and appended to
+`overrides.json` as `{ "track", "artist", "from_year", "to_year" }` entries.
+
+### `/add-new-song [track] [artist] [album] [year]`
+Defined in `.claude/skills/add-new-song/SKILL.md`.
+
+Adds a single track to `favorites.json` without regenerating the whole file. Useful when
+a newly favorited song should be incorporated immediately rather than waiting for the next
+full script run. Updates both `by_year` and (if the artist already appears) `top_artists`,
+then appends a `{ "track", "artist", "year" }` entry to `overrides.json`.
+
+### `overrides.json`
+A manually maintained JSON array that records every correction and addition made outside
+of a full script run. It is not consumed by any script or the front-end; its purpose is
+to serve as an audit trail so that corrections can be replayed or reviewed if `favorites.json`
+is ever regenerated from scratch.
 
 ---
 

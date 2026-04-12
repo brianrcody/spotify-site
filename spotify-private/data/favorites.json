@@ -1,0 +1,6746 @@
+{
+  "top_artists": [
+    {
+      "name": "Big Big Train",
+      "count": 36,
+      "tracks": [
+        {
+          "name": "Atlantic Cable",
+          "album": "Common Ground"
+        },
+        {
+          "name": "Common Ground",
+          "album": "Common Ground"
+        },
+        {
+          "name": "A Boy in Darkness",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "Curator of Butterflies",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "East Coast Racer",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "Hedgerow",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "Judas Unrepentant",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "Keeper of Abbeys",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "Leopards",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "Summoned By Bells",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "Swan Hunter",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "The First Rebreather",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "The Lovers",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "The Permanent Way",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "Uncle Jack",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "Upton Heath",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "Winchester from St Giles' Hill",
+          "album": "English Electric: Full Power"
+        },
+        {
+          "name": "Kingmaker",
+          "album": "Far Skies Deep Time"
+        },
+        {
+          "name": "London Plane",
+          "album": "Folklore"
+        },
+        {
+          "name": "Telling the Bees",
+          "album": "Folklore"
+        },
+        {
+          "name": "The Transit of Venus Across the Sun",
+          "album": "Folklore"
+        },
+        {
+          "name": "Winkie",
+          "album": "Folklore"
+        },
+        {
+          "name": "As the Crow Flies",
+          "album": "Grimspound"
+        },
+        {
+          "name": "Grimspound",
+          "album": "Grimspound"
+        },
+        {
+          "name": "Meadowland",
+          "album": "Grimspound"
+        },
+        {
+          "name": "The Ivy Gate",
+          "album": "Grimspound"
+        },
+        {
+          "name": "Homesong",
+          "album": "Grand Tour"
+        },
+        {
+          "name": "Brooklands",
+          "album": "Ingenious Devices"
+        },
+        {
+          "name": "Snowfalls",
+          "album": "Snowfalls"
+        },
+        {
+          "name": "Snowfalls (At the Boerderij)",
+          "album": "Snowfalls (At the Boerderij)"
+        },
+        {
+          "name": "The Last English King (Live)",
+          "album": "The Last English King (Live)"
+        },
+        {
+          "name": "Love Is the Light",
+          "album": "The Likes of Us"
+        },
+        {
+          "name": "Victorian Brickwork",
+          "album": "The Underfall Yard"
+        },
+        {
+          "name": "Lanterna",
+          "album": "Welcome to the Planet"
+        },
+        {
+          "name": "Proper Jack Froster",
+          "album": "Welcome to the Planet"
+        },
+        {
+          "name": "Light Without Heat",
+          "album": "Woodcut"
+        }
+      ]
+    },
+    {
+      "name": "The Beatles",
+      "count": 28,
+      "tracks": [
+        {
+          "name": "All You Need Is Love - Remastered 2015",
+          "album": "1 (Remastered)"
+        },
+        {
+          "name": "Help! - Remastered 2015",
+          "album": "1 (Remastered)"
+        },
+        {
+          "name": "Hey Jude - Remastered 2015",
+          "album": "1 (Remastered)"
+        },
+        {
+          "name": "I Feel Fine - Remastered 2015",
+          "album": "1 (Remastered)"
+        },
+        {
+          "name": "I Want To Hold Your Hand - Remastered 2015",
+          "album": "1 (Remastered)"
+        },
+        {
+          "name": "Lady Madonna - Remastered 2015",
+          "album": "1 (Remastered)"
+        },
+        {
+          "name": "Penny Lane - Remastered 2015",
+          "album": "1 (Remastered)"
+        },
+        {
+          "name": "She Loves You - Mono / Remastered",
+          "album": "1 (Remastered)"
+        },
+        {
+          "name": "We Can Work It Out - Remastered 2015",
+          "album": "1 (Remastered)"
+        },
+        {
+          "name": "Yellow Submarine - Remastered 2015",
+          "album": "1 (Remastered)"
+        },
+        {
+          "name": "Yesterday - Remastered 2015",
+          "album": "1 (Remastered)"
+        },
+        {
+          "name": "Can't Buy Me Love - Remastered 2009",
+          "album": "A Hard Day's Night (Remastered)"
+        },
+        {
+          "name": "I'll Be Back - Remastered 2009",
+          "album": "A Hard Day's Night (Remastered)"
+        },
+        {
+          "name": "She Came In Through The Bathroom Window - Remastered 2009",
+          "album": "Abbey Road (Remastered)"
+        },
+        {
+          "name": "You Never Give Me Your Money - Remastered 2009",
+          "album": "Abbey Road (Remastered)"
+        },
+        {
+          "name": "Eight Days A Week - Remastered 2009",
+          "album": "Beatles For Sale (Remastered)"
+        },
+        {
+          "name": "I'll Follow The Sun - Remastered 2009",
+          "album": "Beatles For Sale (Remastered)"
+        },
+        {
+          "name": "Across The Universe - Remastered 2009",
+          "album": "Let It Be (Remastered)"
+        },
+        {
+          "name": "Let It Be - Remastered 2009",
+          "album": "Let It Be (Remastered)"
+        },
+        {
+          "name": "She Said She Said - Remastered 2009",
+          "album": "Revolver (Remastered)"
+        },
+        {
+          "name": "If I Needed Someone - Remastered 2009",
+          "album": "Rubber Soul (Remastered 2009)"
+        },
+        {
+          "name": "In My Life - Remastered 2009",
+          "album": "Rubber Soul (Remastered 2009)"
+        },
+        {
+          "name": "Michelle - Remastered 2009",
+          "album": "Rubber Soul (Remastered 2009)"
+        },
+        {
+          "name": "Norwegian Wood (This Bird Has Flown) - Remastered 2009",
+          "album": "Rubber Soul (Remastered 2009)"
+        },
+        {
+          "name": "Blackbird - Remastered 2009",
+          "album": "The Beatles (Remastered)"
+        },
+        {
+          "name": "Martha My Dear - Remastered 2009",
+          "album": "The Beatles (Remastered)"
+        },
+        {
+          "name": "Mother Nature's Son - Remastered 2009",
+          "album": "The Beatles (Remastered)"
+        },
+        {
+          "name": "Rocky Raccoon - Remastered 2009",
+          "album": "The Beatles (Remastered)"
+        }
+      ]
+    },
+    {
+      "name": "Pearl Jam",
+      "count": 27,
+      "tracks": [
+        {
+          "name": "Got Some",
+          "album": "Backspacer"
+        },
+        {
+          "name": "The Fixer",
+          "album": "Backspacer"
+        },
+        {
+          "name": "Yellow Ledbetter",
+          "album": "Jeremy"
+        },
+        {
+          "name": "Future Days",
+          "album": "Lightning Bolt"
+        },
+        {
+          "name": "Alone",
+          "album": "Lost Dogs"
+        },
+        {
+          "name": "Fatal",
+          "album": "Lost Dogs"
+        },
+        {
+          "name": "Let Me Sleep (It's Christmas Time)",
+          "album": "Lost Dogs"
+        },
+        {
+          "name": "In My Tree",
+          "album": "No Code"
+        },
+        {
+          "name": "Off He Goes",
+          "album": "No Code"
+        },
+        {
+          "name": "Inside Job",
+          "album": "Pearl Jam"
+        },
+        {
+          "name": "I Am Mine",
+          "album": "Riot Act"
+        },
+        {
+          "name": "Crown of Thorns - Live in Seattle, Washington - November 5 2000",
+          "album": "Seattle Washington November 5 2000"
+        },
+        {
+          "name": "Alive",
+          "album": "Ten"
+        },
+        {
+          "name": "Black",
+          "album": "Ten"
+        },
+        {
+          "name": "Even Flow",
+          "album": "Ten"
+        },
+        {
+          "name": "Jeremy - Brendan O'Brien Mix",
+          "album": "Ten Redux"
+        },
+        {
+          "name": "Porch - Brendan O'Brien Mix",
+          "album": "Ten Redux"
+        },
+        {
+          "name": "Better Man",
+          "album": "Vitalogy"
+        },
+        {
+          "name": "Corduroy",
+          "album": "Vitalogy"
+        },
+        {
+          "name": "Animal",
+          "album": "Vs."
+        },
+        {
+          "name": "Daughter",
+          "album": "Vs."
+        },
+        {
+          "name": "Dissident",
+          "album": "Vs."
+        },
+        {
+          "name": "Elderly Woman Behind The Counter in a Small Town",
+          "album": "Vs."
+        },
+        {
+          "name": "Rearviewmirror",
+          "album": "Vs."
+        },
+        {
+          "name": "Breath and a Scream",
+          "album": "rearviewmirror (greatest hits 1991-2003)"
+        },
+        {
+          "name": "I Got Id",
+          "album": "rearviewmirror (greatest hits 1991-2003)"
+        },
+        {
+          "name": "State of Love and Trust",
+          "album": "rearviewmirror (greatest hits 1991-2003)"
+        }
+      ]
+    },
+    {
+      "name": "Jethro Tull",
+      "count": 24,
+      "tracks": [
+        {
+          "name": "Fylingdale Flyer - 2004 Remaster",
+          "album": "A (2004 Remaster)"
+        },
+        {
+          "name": "Aqualung - Steven Wilson Stereo Remix",
+          "album": "Aqualung"
+        },
+        {
+          "name": "Cheap Day Return - Steven Wilson Stereo Remix",
+          "album": "Aqualung"
+        },
+        {
+          "name": "Life Is A Long Song - 2011 Steven Wilson Remix",
+          "album": "Aqualung"
+        },
+        {
+          "name": "Mother Goose - Steven Wilson Stereo Remix",
+          "album": "Aqualung"
+        },
+        {
+          "name": "Wond'ring Aloud - Steven Wilson Stereo Remix",
+          "album": "Aqualung"
+        },
+        {
+          "name": "The Witch's Promise - 2001 Remaster",
+          "album": "Benefit"
+        },
+        {
+          "name": "Sossity: You're a Woman - 2013 Stereo Mix",
+          "album": "Benefit (Steven Wilson Mix)"
+        },
+        {
+          "name": "Teacher - US Stereo; 2013 Mix",
+          "album": "Benefit (Steven Wilson Mix)"
+        },
+        {
+          "name": "Rocks on the Road - 2006 Remaster",
+          "album": "Catfish Rising (2006 Remaster)"
+        },
+        {
+          "name": "Budapest - 2005 Remaster",
+          "album": "Crest of a Knave (2005 Remaster)"
+        },
+        {
+          "name": "Moths - 2003 Remaster",
+          "album": "Heavy Horses (2003 Remaster)"
+        },
+        {
+          "name": "Botanic Man - Steven Wilson Stereo Remix",
+          "album": "Heavy Horses (Steven Wilson Remix)"
+        },
+        {
+          "name": "Jack-a-Lynn - Steven Wilson Stereo Remix",
+          "album": "Heavy Horses (Steven Wilson Remix)"
+        },
+        {
+          "name": "Rainbow Blues",
+          "album": "M.U. - The Best of Jethro Tull"
+        },
+        {
+          "name": "Summerday Sands - 2002 Remaster",
+          "album": "Minstrel in the Gallery (2002 Remaster)"
+        },
+        {
+          "name": "Crash-Barrier Waltzer - Steven Wilson Stereo Remix",
+          "album": "Minstrel in the Gallery (40th Anniversary Edition)"
+        },
+        {
+          "name": "Broadford Bazaar",
+          "album": "Nightcap - The Unreleased Masters, 1973 - 1991"
+        },
+        {
+          "name": "Fire at Midnight - Steven Wilson Stereo Remix",
+          "album": "Songs from the Wood (40th Anniversary Edition; The Steven Wilson Remix)"
+        },
+        {
+          "name": "Songs from the Wood - Steven Wilson Stereo Remix",
+          "album": "Songs from the Wood (40th Anniversary Edition; The Steven Wilson Remix)"
+        },
+        {
+          "name": "Dun Ringill - Steven Wilson Stereo Remix",
+          "album": "Stormwatch (Steven Wilson Remix, 40th Anniversary Special Edition)"
+        },
+        {
+          "name": "Skating Away on the Thin Ice of the New Day - 2002 Remaster",
+          "album": "The Best of Acoustic Jethro Tull"
+        },
+        {
+          "name": "Thick as a Brick - Edit #1; 2001 Remaster",
+          "album": "The Best of Acoustic Jethro Tull"
+        },
+        {
+          "name": "Only Solitaire - 2002 Remaster",
+          "album": "War Child (2002 Remaster)"
+        }
+      ]
+    },
+    {
+      "name": "Genesis",
+      "count": 18,
+      "tracks": [
+        {
+          "name": "A Trick of the Tail - 2007 Remaster",
+          "album": "A Trick of the Tail (2007 Remaster)"
+        },
+        {
+          "name": "Mad Man Moon - 2007 Remaster",
+          "album": "A Trick of the Tail (2007 Remaster)"
+        },
+        {
+          "name": "Squonk - 2007 Remaster",
+          "album": "A Trick of the Tail (2007 Remaster)"
+        },
+        {
+          "name": "Follow You Follow Me",
+          "album": "And Then There Were Three"
+        },
+        {
+          "name": "Many Too Many - 2007 Remaster",
+          "album": "And Then There Were Three (2007 Remaster)"
+        },
+        {
+          "name": "Undertow - 2007 Remaster",
+          "album": "And Then There Were Three (2007 Remaster)"
+        },
+        {
+          "name": "Misunderstanding - Remastered 2007",
+          "album": "Duke"
+        },
+        {
+          "name": "Turn It On Again - Remastered 2007",
+          "album": "Duke"
+        },
+        {
+          "name": "Taking It All Too Hard - Digital Remastered 2007",
+          "album": "Genesis"
+        },
+        {
+          "name": "That's All - Remastered 2007",
+          "album": "Genesis"
+        },
+        {
+          "name": "Throwing It All Away",
+          "album": "Invisible Touch"
+        },
+        {
+          "name": "Harlequin - 2007 Stereo Mix",
+          "album": "Nursery Cryme (2007 Stereo Mix)"
+        },
+        {
+          "name": "Firth Of Fifth - Remastered 2008",
+          "album": "Selling England By The Pound"
+        },
+        {
+          "name": "I Know What I Like (In Your Wardrobe) - Remastered 2008",
+          "album": "Selling England By The Pound"
+        },
+        {
+          "name": "The Cinema Show - Remastered 2008",
+          "album": "Selling England By The Pound"
+        },
+        {
+          "name": "Carpet Crawlers",
+          "album": "The Lamb Lies Down On Broadway"
+        },
+        {
+          "name": "Counting Out Time",
+          "album": "The Lamb Lies Down On Broadway"
+        },
+        {
+          "name": "One for the Vine - 2007 Remaster",
+          "album": "Wind & Wuthering (2007 Remaster)"
+        }
+      ]
+    },
+    {
+      "name": "Prince",
+      "count": 17,
+      "tracks": [
+        {
+          "name": "D.M.S.R.",
+          "album": "1999"
+        },
+        {
+          "name": "Fury",
+          "album": "3121"
+        },
+        {
+          "name": "Alphabet St.",
+          "album": "4Ever"
+        },
+        {
+          "name": "Diamonds and Pearls",
+          "album": "Diamonds and Pearls"
+        },
+        {
+          "name": "Do It All Night",
+          "album": "Dirty Mind"
+        },
+        {
+          "name": "Gotta Broken Heart Again",
+          "album": "Dirty Mind"
+        },
+        {
+          "name": "Uptown",
+          "album": "Dirty Mind"
+        },
+        {
+          "name": "Colonized Mind",
+          "album": "Lotus Flow3r"
+        },
+        {
+          "name": "Starfish & Coffee - Live from One Nite Alone Tour 2002",
+          "album": "One Nite Alone... Live!"
+        },
+        {
+          "name": "Why You Wanna Treat Me so Bad?",
+          "album": "Prince"
+        },
+        {
+          "name": "Let's Go Crazy",
+          "album": "Purple Rain"
+        },
+        {
+          "name": "Slow Love",
+          "album": "Sign \"O\" the Times"
+        },
+        {
+          "name": "Starfish and Coffee",
+          "album": "Sign \"O\" the Times"
+        },
+        {
+          "name": "She's Always in My Hair",
+          "album": "The Hits / The B-Sides"
+        },
+        {
+          "name": "Kiss",
+          "album": "The Hits 2"
+        },
+        {
+          "name": "Raspberry Beret",
+          "album": "The Hits 2"
+        },
+        {
+          "name": "We Can Funk",
+          "album": "Graffiti Bridge"
+        }
+      ]
+    },
+    {
+      "name": "Elton John",
+      "count": 17,
+      "tracks": [
+        {
+          "name": "Tower Of Babel",
+          "album": "Captain Fantastic And The Brown Dirt Cowboy (Remastered)"
+        },
+        {
+          "name": "Border Song",
+          "album": "Elton John"
+        },
+        {
+          "name": "Take Me To The Pilot",
+          "album": "Elton John"
+        },
+        {
+          "name": "Bennie And The Jets - Remastered 2014",
+          "album": "Goodbye Yellow Brick Road (40th Anniversary Celebration/ Super Deluxe Edition)"
+        },
+        {
+          "name": "Funeral For A Friend / Love Lies Bleeding",
+          "album": "Goodbye Yellow Brick Road (Newly Remastered)"
+        },
+        {
+          "name": "Daniel",
+          "album": "Greatest Hits"
+        },
+        {
+          "name": "Your Song",
+          "album": "Greatest Hits"
+        },
+        {
+          "name": "Mona Lisas And Mad Hatters",
+          "album": "Honky Chateau"
+        },
+        {
+          "name": "Rocket Man (I Think It's Going To Be A Long, Long Time)",
+          "album": "Honky Chateau"
+        },
+        {
+          "name": "All The Nasties",
+          "album": "Madman Across The Water"
+        },
+        {
+          "name": "Levon",
+          "album": "Madman Across The Water"
+        },
+        {
+          "name": "Razor Face",
+          "album": "Madman Across The Water"
+        },
+        {
+          "name": "Tiny Dancer",
+          "album": "Madman Across The Water"
+        },
+        {
+          "name": "I Guess That's Why They Call It The Blues",
+          "album": "Too Low For Zero"
+        },
+        {
+          "name": "Come Down In Time",
+          "album": "Tumbleweed Connection"
+        },
+        {
+          "name": "Country Comfort",
+          "album": "Tumbleweed Connection"
+        },
+        {
+          "name": "My Father's Gun",
+          "album": "Tumbleweed Connection"
+        }
+      ]
+    },
+    {
+      "name": "Josh Ritter",
+      "count": 17,
+      "tracks": [
+        {
+          "name": "Love Is Making Its Way Back Home",
+          "album": "Bringing In the Darlings EP"
+        },
+        {
+          "name": "Golden Age of Radio",
+          "album": "Golden Age of Radio"
+        },
+        {
+          "name": "Other Side",
+          "album": "Golden Age of Radio"
+        },
+        {
+          "name": "California",
+          "album": "Hello Starling"
+        },
+        {
+          "name": "Kathleen",
+          "album": "Hello Starling"
+        },
+        {
+          "name": "You Don't Make It Easy Babe",
+          "album": "Hello Starling"
+        },
+        {
+          "name": "Where the Night Goes",
+          "album": "Sermon on the Rocks"
+        },
+        {
+          "name": "Orbital",
+          "album": "So Runs the World Away"
+        },
+        {
+          "name": "The Remnant",
+          "album": "So Runs the World Away"
+        },
+        {
+          "name": "Good Man",
+          "album": "The Animal Years"
+        },
+        {
+          "name": "Here at the Right Time",
+          "album": "The Animal Years"
+        },
+        {
+          "name": "In the Dark",
+          "album": "The Animal Years"
+        },
+        {
+          "name": "Monster Ballads",
+          "album": "The Animal Years"
+        },
+        {
+          "name": "Empty Hearts",
+          "album": "The Historical Conquests Of Josh Ritter"
+        },
+        {
+          "name": "Right Moves",
+          "album": "The Historical Conquests Of Josh Ritter"
+        },
+        {
+          "name": "To The Dogs Or Whoever",
+          "album": "The Historical Conquests Of Josh Ritter"
+        },
+        {
+          "name": "Wait For Love (You Know You Will)",
+          "album": "The Historical Conquests Of Josh Ritter"
+        }
+      ]
+    },
+    {
+      "name": "Stevie Wonder",
+      "count": 14,
+      "tracks": [
+        {
+          "name": "For Once In My Life",
+          "album": "Best Of/20th Century"
+        },
+        {
+          "name": "Don't You Worry 'Bout A Thing",
+          "album": "Innervisions"
+        },
+        {
+          "name": "Higher Ground",
+          "album": "Innervisions"
+        },
+        {
+          "name": "My Cherie Amour",
+          "album": "My Cherie Amour"
+        },
+        {
+          "name": "I Was Made To Love Her",
+          "album": "Number 1's"
+        },
+        {
+          "name": "Uptight (Everything's Alright)",
+          "album": "Number 1's"
+        },
+        {
+          "name": "Knocks Me Off My Feet",
+          "album": "Songs In The Key Of Life"
+        },
+        {
+          "name": "Another Star",
+          "album": "Songs In The Key Of Life (Reissue)"
+        },
+        {
+          "name": "As",
+          "album": "Songs In The Key Of Life (Reissue)"
+        },
+        {
+          "name": "I Wish",
+          "album": "Songs In The Key Of Life (Reissue)"
+        },
+        {
+          "name": "Love's In Need Of Love Today",
+          "album": "Songs In The Key Of Life (Reissue)"
+        },
+        {
+          "name": "Ordinary Pain",
+          "album": "Songs In The Key Of Life (Reissue)"
+        },
+        {
+          "name": "Sir Duke",
+          "album": "Songs In The Key Of Life (Reissue)"
+        },
+        {
+          "name": "Superstition",
+          "album": "Talking Book (Reissue)"
+        }
+      ]
+    },
+    {
+      "name": "King Crimson",
+      "count": 14,
+      "tracks": [
+        {
+          "name": "Neal And Jack And Me",
+          "album": "Beat"
+        },
+        {
+          "name": "Frame By Frame",
+          "album": "Discipline"
+        },
+        {
+          "name": "Dr. Diamond (from: King Crimson Collectors' Club 15) - Live in Mainz",
+          "album": "Dr. Diamond (KC50, Vol. 31) [Live in Mainz]"
+        },
+        {
+          "name": "21st Century Schizoid Man",
+          "album": "In The Court Of The Crimson King (Expanded & Remastered Original Album Mix)"
+        },
+        {
+          "name": "Ladies of the Road",
+          "album": "Islands"
+        },
+        {
+          "name": "Islands (Live in Chicago 28 June 2017)",
+          "album": "Live In Chicago, 28 June 2017 (Collector's Club Special Edition)"
+        },
+        {
+          "name": "Starless (Live in Chicago 28 June 2017)",
+          "album": "Live In Chicago, 28 June 2017 (Collector's Club Special Edition)"
+        },
+        {
+          "name": "Pictures of a City",
+          "album": "Radical Action To Unseat the Hold of Monkey Mind (Live)"
+        },
+        {
+          "name": "The Night Watch",
+          "album": "Starless And Bible Black"
+        },
+        {
+          "name": "One Time",
+          "album": "THRAK"
+        },
+        {
+          "name": "Walking On Air",
+          "album": "THRAK"
+        },
+        {
+          "name": "Doctor Diamond - Live (Pittsburgh, PA - Stanley Warner Theatre: April 29th, 1974)",
+          "album": "The Great Deceiver (Pt, II.)"
+        },
+        {
+          "name": "Sleepless",
+          "album": "Three of a Perfect Pair"
+        },
+        {
+          "name": "Three of a Perfect Pair",
+          "album": "Three of a Perfect Pair"
+        }
+      ]
+    },
+    {
+      "name": "Richard Hawley",
+      "count": 12,
+      "tracks": [
+        {
+          "name": "Coles Corner",
+          "album": "Coles Corner"
+        },
+        {
+          "name": "The Ocean",
+          "album": "Coles Corner"
+        },
+        {
+          "name": "I Still Want You",
+          "album": "Hollow Meadows"
+        },
+        {
+          "name": "Tuesday PM",
+          "album": "Hollow Meadows"
+        },
+        {
+          "name": "Roll River Roll",
+          "album": "Lady's Bridge"
+        },
+        {
+          "name": "Serious",
+          "album": "Lady's Bridge"
+        },
+        {
+          "name": "Tonight the Streets Are Ours",
+          "album": "Lady's Bridge"
+        },
+        {
+          "name": "Baby You'Re My Light",
+          "album": "Late Night Final"
+        },
+        {
+          "name": "On The Ledge",
+          "album": "Low Edges"
+        },
+        {
+          "name": "You Don'T Miss Your Water (Till Your Well Runs Dry)",
+          "album": "Low Edges"
+        },
+        {
+          "name": "Vickers Road",
+          "album": "Tonight the Streets Are Ours"
+        },
+        {
+          "name": "Open up Your Door",
+          "album": "Truelove's Gutter"
+        }
+      ]
+    },
+    {
+      "name": "Bruce Springsteen",
+      "count": 11,
+      "tracks": [
+        {
+          "name": "Dancing In The Dark",
+          "album": "Born In The U.S.A."
+        },
+        {
+          "name": "Jungleland",
+          "album": "Born To Run"
+        },
+        {
+          "name": "Thunder Road",
+          "album": "Born To Run"
+        },
+        {
+          "name": "Blinded by the Light",
+          "album": "Greetings From Asbury Park, N.J."
+        },
+        {
+          "name": "Spirit in the Night",
+          "album": "Greetings From Asbury Park, N.J."
+        },
+        {
+          "name": "Kitty's Back",
+          "album": "Greetings From Asbury Park, N.J./The Wild, The Innocent & The E Street Shuffle/Darkness On The Edge Of Town"
+        },
+        {
+          "name": "New York City Serenade",
+          "album": "Greetings From Asbury Park, N.J./The Wild, The Innocent & The E Street Shuffle/Darkness On The Edge Of Town"
+        },
+        {
+          "name": "Rosalita (Come out Tonight)",
+          "album": "Greetings From Asbury Park, N.J./The Wild, The Innocent & The E Street Shuffle/Darkness On The Edge Of Town"
+        },
+        {
+          "name": "Lost In The Flood - Live at Hammersmith Odeon Audio",
+          "album": "Hammersmith Odeon, London '75"
+        },
+        {
+          "name": "Thunder Road - The Song - Live at the Hammersmith Odeon, London, UK - November 1975",
+          "album": "Hammersmith Odeon, London '75"
+        },
+        {
+          "name": "4th of July, Asbury Park (Sandy)",
+          "album": "The Wild, the Innocent & The E Street Shuffle"
+        }
+      ]
+    },
+    {
+      "name": "Bob Marley & The Wailers",
+      "count": 11,
+      "tracks": [
+        {
+          "name": "I Shot The Sheriff",
+          "album": "Burnin' (Deluxe Edition)"
+        },
+        {
+          "name": "Baby We've Got A Date (Rock It Baby)",
+          "album": "Catch A Fire"
+        },
+        {
+          "name": "Jamming",
+          "album": "Exodus (Deluxe Edition)"
+        },
+        {
+          "name": "Natural Mystic",
+          "album": "Exodus (Deluxe Edition)"
+        },
+        {
+          "name": "One Love / People Get Ready",
+          "album": "Exodus (Deluxe Edition)"
+        },
+        {
+          "name": "Is This Love",
+          "album": "Kaya"
+        },
+        {
+          "name": "Time Will Tell",
+          "album": "Kaya"
+        },
+        {
+          "name": "So Jah S'eh",
+          "album": "Natty Dread"
+        },
+        {
+          "name": "No Woman No Cry",
+          "album": "Natty Dread (Remastered)"
+        },
+        {
+          "name": "Johnny Was",
+          "album": "Rastaman Vibration"
+        },
+        {
+          "name": "Could You Be Loved",
+          "album": "Uprising"
+        }
+      ]
+    },
+    {
+      "name": "Queen",
+      "count": 10,
+      "tracks": [
+        {
+          "name": "Somebody To Love",
+          "album": "A Day At The Races"
+        },
+        {
+          "name": "You're My Best Friend",
+          "album": "A Night At The Opera"
+        },
+        {
+          "name": "Seaside Rendezvous - Remastered 2011",
+          "album": "A Night At The Opera (Deluxe Remastered Version)"
+        },
+        {
+          "name": "Under Pressure",
+          "album": "Best of Bowie"
+        },
+        {
+          "name": "Crazy Little Thing Called Love - Remastered",
+          "album": "Greatest Hits - We Will Rock You Edition"
+        },
+        {
+          "name": "Cool Cat - Remastered 2011",
+          "album": "Hot Space (Deluxe Remastered Version)"
+        },
+        {
+          "name": "Don't Stop Me Now - Remastered 2011",
+          "album": "Jazz (Deluxe Remastered Version)"
+        },
+        {
+          "name": "Fat Bottomed Girls - Single Version / Remastered 2011",
+          "album": "Jazz (Deluxe Remastered Version)"
+        },
+        {
+          "name": "Killer Queen - Remastered 2011",
+          "album": "Sheer Heart Attack"
+        },
+        {
+          "name": "I Want It All - Remastered 2011",
+          "album": "The Miracle (Deluxe Remastered Version)"
+        }
+      ]
+    },
+    {
+      "name": "Van Morrison",
+      "count": 9,
+      "tracks": [
+        {
+          "name": "Sweet Thing - 1999 Remaster",
+          "album": "Astral Weeks"
+        },
+        {
+          "name": "The Way Young Lovers Do - 1999 Remaster",
+          "album": "Astral Weeks"
+        },
+        {
+          "name": "Have I Told You Lately?",
+          "album": "At The Movies - Soundtrack Hits"
+        },
+        {
+          "name": "Jackie Wilson Said (I'm In Heaven When You Smile)",
+          "album": "At The Movies - Soundtrack Hits"
+        },
+        {
+          "name": "Domino - 1999 Remaster",
+          "album": "His Band and the Street Choir"
+        },
+        {
+          "name": "Caravan",
+          "album": "Moondance"
+        },
+        {
+          "name": "Moondance",
+          "album": "Moondance"
+        },
+        {
+          "name": "Tupelo Honey - 2007 Re-mastered",
+          "album": "Tupelo Honey (Expanded Reissue)"
+        },
+        {
+          "name": "Wild Night - 2007 Re-mastered",
+          "album": "Tupelo Honey (Expanded Reissue)"
+        }
+      ]
+    },
+    {
+      "name": "Bob Dylan",
+      "count": 9,
+      "tracks": [
+        {
+          "name": "Just Like a Woman",
+          "album": "Blonde On Blonde"
+        },
+        {
+          "name": "Tangled Up In Blue",
+          "album": "Blood On The Tracks"
+        },
+        {
+          "name": "Mr. Tambourine Man",
+          "album": "Bringing It All Back Home"
+        },
+        {
+          "name": "Hurricane",
+          "album": "Desire"
+        },
+        {
+          "name": "Lay, Lady, Lay",
+          "album": "Nashville Skyline"
+        },
+        {
+          "name": "To Be Alone with You",
+          "album": "Nashville Skyline"
+        },
+        {
+          "name": "Day of the Locusts",
+          "album": "New Morning"
+        },
+        {
+          "name": "The Man in Me",
+          "album": "New Morning"
+        },
+        {
+          "name": "Knockin' On Heaven's Door",
+          "album": "PAT GARRETT & BILLY THE KID Original Soundtrack Recording"
+        }
+      ]
+    },
+    {
+      "name": "Marillion",
+      "count": 8,
+      "tracks": [
+        {
+          "name": "Easter - Live at the Royal Albert Hall",
+          "album": "All One Tonight"
+        },
+        {
+          "name": "The Crow and the Nightingale",
+          "album": "An Hour Before It's Dark"
+        },
+        {
+          "name": "Cinderella Search - Single Version",
+          "album": "B'Sides Themselves"
+        },
+        {
+          "name": "The Great Escape/The Last Of You/Fallin' From The Moon (Medley)",
+          "album": "Brave"
+        },
+        {
+          "name": "Sugar Mice - 1999 Remaster",
+          "album": "Clutching at Straws"
+        },
+        {
+          "name": "Charting the Single - 1997 Remaster",
+          "album": "Script for a Jester's Tear"
+        },
+        {
+          "name": "Easter",
+          "album": "Seasons End"
+        },
+        {
+          "name": "Estonia",
+          "album": "This Strange Engine"
+        }
+      ]
+    },
+    {
+      "name": "Led Zeppelin",
+      "count": 8,
+      "tracks": [
+        {
+          "name": "Hey, Hey, What Can I Do - Remaster",
+          "album": "Coda (Deluxe Edition)"
+        },
+        {
+          "name": "The Ocean",
+          "album": "Houses Of The Holy"
+        },
+        {
+          "name": "How Many More Times",
+          "album": "Led Zeppelin"
+        },
+        {
+          "name": "Bring It On Home",
+          "album": "Led Zeppelin II"
+        },
+        {
+          "name": "Gallows Pole",
+          "album": "Led Zeppelin III"
+        },
+        {
+          "name": "That's The Way",
+          "album": "Led Zeppelin III"
+        },
+        {
+          "name": "Ten Years Gone - Remaster",
+          "album": "Physical Graffiti (Remaster)"
+        },
+        {
+          "name": "Nobody's Fault But Mine",
+          "album": "Presence"
+        }
+      ]
+    },
+    {
+      "name": "The Black Crowes",
+      "count": 7,
+      "tracks": [
+        {
+          "name": "Descending",
+          "album": "Amorica."
+        },
+        {
+          "name": "Nonfiction",
+          "album": "Amorica."
+        },
+        {
+          "name": "Jealous Again",
+          "album": "Shake Your Money Maker"
+        },
+        {
+          "name": "She Talks To Angels",
+          "album": "Shake Your Money Maker"
+        },
+        {
+          "name": "Twice As Hard",
+          "album": "Shake Your Money Maker"
+        },
+        {
+          "name": "Remedy",
+          "album": "The Southern Harmony And Musical Companion"
+        },
+        {
+          "name": "Thorn In My Pride",
+          "album": "The Southern Harmony And Musical Companion"
+        }
+      ]
+    },
+    {
+      "name": "Porcupine Tree",
+      "count": 7,
+      "tracks": [
+        {
+          "name": "Lazarus",
+          "album": "Deadwing (Intl Download)"
+        },
+        {
+          "name": "Blackest Eyes",
+          "album": "In Absentia"
+        },
+        {
+          "name": "Heartattack In A Layby",
+          "album": "In Absentia"
+        },
+        {
+          "name": "Trains",
+          "album": "In Absentia"
+        },
+        {
+          "name": "Sever",
+          "album": "Signify (Remaster)"
+        },
+        {
+          "name": "Piano Lessons",
+          "album": "Stupid Dream (Special Edition)"
+        },
+        {
+          "name": "Stranger By The Minute",
+          "album": "Stupid Dream (Special Edition)"
+        }
+      ]
+    },
+    {
+      "name": "Marvin Gaye",
+      "count": 7,
+      "tracks": [
+        {
+          "name": "Good Lovin' Ain't Easy To Come By",
+          "album": "20th Century Masters: The Millennium Collection: The Best Of Marvin Gaye & Tammi Terrell"
+        },
+        {
+          "name": "Come Get To This",
+          "album": "Let's Get It On (Deluxe Edition)"
+        },
+        {
+          "name": "Let's Get It On",
+          "album": "Let's Get It On (Deluxe Edition)"
+        },
+        {
+          "name": "Sexual Healing",
+          "album": "Midnight Love & The Sexual Healing Sessions"
+        },
+        {
+          "name": "I Heard It Through The Grapevine - Single Version (Mono)",
+          "album": "The Master 1961-1984"
+        },
+        {
+          "name": "Mercy Mercy Me (The Ecology)",
+          "album": "What's Going On"
+        },
+        {
+          "name": "What's Going On",
+          "album": "What's Going On (Deluxe Edition)"
+        }
+      ]
+    },
+    {
+      "name": "The Beach Boys",
+      "count": 7,
+      "tracks": [
+        {
+          "name": "God Only Knows - Mono",
+          "album": "Pet Sounds (Original Mono & Stereo Mix)"
+        },
+        {
+          "name": "Wouldn't It Be Nice",
+          "album": "Pet Sounds (Original Mono & Stereo Mix)"
+        },
+        {
+          "name": "Don't Worry Baby",
+          "album": "The Very Best Of The Beach Boys: Sounds Of Summer"
+        },
+        {
+          "name": "Good Timin'",
+          "album": "The Very Best Of The Beach Boys: Sounds Of Summer"
+        },
+        {
+          "name": "Good Vibrations - Remastered 2001",
+          "album": "The Very Best Of The Beach Boys: Sounds Of Summer"
+        },
+        {
+          "name": "I Get Around - Remastered 2001",
+          "album": "The Very Best Of The Beach Boys: Sounds Of Summer"
+        },
+        {
+          "name": "When I Grow Up (To Be A Man) - Remastered",
+          "album": "The Very Best Of The Beach Boys: Sounds Of Summer"
+        }
+      ]
+    },
+    {
+      "name": "Peter Gabriel",
+      "count": 7,
+      "tracks": [
+        {
+          "name": "Here Comes the Flood - Live",
+          "album": "Growing Up Live"
+        },
+        {
+          "name": "Solsbury Hill",
+          "album": "Peter Gabriel 1: Car"
+        },
+        {
+          "name": "Games Without Frontiers",
+          "album": "Peter Gabriel 3: Melt (Remastered Version)"
+        },
+        {
+          "name": "I Don't Remember",
+          "album": "Peter Gabriel 3: Melt (Remastered Version)"
+        },
+        {
+          "name": "In Your Eyes",
+          "album": "So"
+        },
+        {
+          "name": "Mercy Street",
+          "album": "So"
+        },
+        {
+          "name": "Sledgehammer - Remastered 2002",
+          "album": "So"
+        }
+      ]
+    },
+    {
+      "name": "The Who",
+      "count": 7,
+      "tracks": [
+        {
+          "name": "Leaving Here - Demo Recording",
+          "album": "Odds & Sods"
+        },
+        {
+          "name": "Love Reign O'er Me - 1996 Remastered Version",
+          "album": "Quadrophenia"
+        },
+        {
+          "name": "Magic Bus - Original Stereo Version",
+          "album": "Then And Now"
+        },
+        {
+          "name": "Baba O'Riley",
+          "album": "Who's Next (Deluxe Edition)"
+        },
+        {
+          "name": "Won't Get Fooled Again - Original Album Version",
+          "album": "Who's Next (Deluxe Edition)"
+        },
+        {
+          "name": "Bargain",
+          "album": "Who's Next (Expanded Edition)"
+        },
+        {
+          "name": "Behind Blue Eyes",
+          "album": "Who's Next (Expanded Edition)"
+        }
+      ]
+    },
+    {
+      "name": "Blood, Sweat & Tears",
+      "count": 7,
+      "tracks": [
+        {
+          "name": "Go Down Gamblin'",
+          "album": "B, S & T; 4"
+        },
+        {
+          "name": "And When I Die",
+          "album": "Blood, Sweat & Tears"
+        },
+        {
+          "name": "Spinning Wheel",
+          "album": "Blood, Sweat & Tears"
+        },
+        {
+          "name": "You've Made Me So Very Happy",
+          "album": "Blood, Sweat & Tears"
+        },
+        {
+          "name": "More and More",
+          "album": "Blood, Sweat & Tears (Expanded Edition)"
+        },
+        {
+          "name": "Hi-De-Ho",
+          "album": "Blood, Sweat And Tears 3"
+        },
+        {
+          "name": "Lisa, Listen to Me",
+          "album": "The Best Of Blood, Sweat & Tears: What Goes Up!"
+        }
+      ]
+    },
+    {
+      "name": "Janelle Monáe",
+      "count": 7,
+      "tracks": [
+        {
+          "name": "Don't Judge Me",
+          "album": "Dirty Computer"
+        },
+        {
+          "name": "Many Moons",
+          "album": "Metropolis Suite I \"the Chase\""
+        },
+        {
+          "name": "Sincerely, Jane",
+          "album": "Metropolis: The Chase Suite (Special Edition)"
+        },
+        {
+          "name": "Violet Stars Happy Hunting!!! (feat. The Skunks)",
+          "album": "Metropolis: The Chase Suite (Special Edition)"
+        },
+        {
+          "name": "Dance Apocalyptic",
+          "album": "The Electric Lady"
+        },
+        {
+          "name": "Electric Lady (feat. Solange)",
+          "album": "The Electric Lady"
+        },
+        {
+          "name": "What an Experience",
+          "album": "The Electric Lady"
+        }
+      ]
+    },
+    {
+      "name": "The Pineapple Thief",
+      "count": 7,
+      "tracks": [
+        {
+          "name": "Shed a Light",
+          "album": "Dissolution"
+        },
+        {
+          "name": "White Mist",
+          "album": "Dissolution"
+        },
+        {
+          "name": "A Loneliness",
+          "album": "Magnolia"
+        },
+        {
+          "name": "Seasons Past",
+          "album": "Magnolia"
+        },
+        {
+          "name": "Out of Line",
+          "album": "Versions of the Truth"
+        },
+        {
+          "name": "No Man's Land",
+          "album": "Your Wilderness"
+        },
+        {
+          "name": "The Final Thing on My Mind",
+          "album": "Your Wilderness"
+        }
+      ]
+    },
+    {
+      "name": "Amy Winehouse",
+      "count": 6,
+      "tracks": [
+        {
+          "name": "He Can Only Hold Her",
+          "album": "Back To Black"
+        },
+        {
+          "name": "You Know I'm No Good",
+          "album": "Back To Black"
+        },
+        {
+          "name": "Valerie - Live At BBC Radio 1 Live Lounge, London / 2007",
+          "album": "Back To Black: B-Sides"
+        },
+        {
+          "name": "You Sent Me Flying / Cherry",
+          "album": "Frank"
+        },
+        {
+          "name": "Half Time",
+          "album": "Lioness: Hidden Treasures"
+        },
+        {
+          "name": "Valerie - '68 Version",
+          "album": "Lioness: Hidden Treasures"
+        }
+      ]
+    },
+    {
+      "name": "John Coltrane",
+      "count": 6,
+      "tracks": [
+        {
+          "name": "A Love Supreme, Pt. II - Resolution",
+          "album": "A Love Supreme"
+        },
+        {
+          "name": "Blue Train",
+          "album": "Blue Train"
+        },
+        {
+          "name": "Moment's Notice",
+          "album": "Blue Train"
+        },
+        {
+          "name": "Giant Steps",
+          "album": "Giant Steps (Deluxe Edition)"
+        },
+        {
+          "name": "Mr. P.C.",
+          "album": "Giant Steps (Deluxe Edition)"
+        },
+        {
+          "name": "Little Old Lady",
+          "album": "With The Wind"
+        }
+      ]
+    },
+    {
+      "name": "Radiohead",
+      "count": 6,
+      "tracks": [
+        {
+          "name": "Everything in Its Right Place",
+          "album": "Kid A"
+        },
+        {
+          "name": "Karma Police",
+          "album": "OK Computer"
+        },
+        {
+          "name": "Let Down",
+          "album": "OK Computer"
+        },
+        {
+          "name": "Subterranean Homesick Alien",
+          "album": "OK Computer"
+        },
+        {
+          "name": "My Iron Lung",
+          "album": "The Bends"
+        },
+        {
+          "name": "Codex",
+          "album": "The King Of Limbs"
+        }
+      ]
+    },
+    {
+      "name": "Sam Cooke",
+      "count": 6,
+      "tracks": [
+        {
+          "name": "Good Times",
+          "album": "Portrait of a Legend (Remastered)"
+        },
+        {
+          "name": "Having A Party",
+          "album": "Portrait of a Legend (Remastered)"
+        },
+        {
+          "name": "Just For You",
+          "album": "Portrait of a Legend (Remastered)"
+        },
+        {
+          "name": "Summertime",
+          "album": "Portrait of a Legend (Remastered)"
+        },
+        {
+          "name": "Wonderful World",
+          "album": "Portrait of a Legend (Remastered)"
+        },
+        {
+          "name": "You Send Me",
+          "album": "Portrait of a Legend (Remastered)"
+        }
+      ]
+    },
+    {
+      "name": "The Smashing Pumpkins",
+      "count": 6,
+      "tracks": [
+        {
+          "name": "1979",
+          "album": "Mellon Collie And The Infinite Sadness"
+        },
+        {
+          "name": "Thirty-Three - Remastered 2012",
+          "album": "Mellon Collie And The Infinite Sadness (Deluxe Edition)"
+        },
+        {
+          "name": "Muzzle - Remastered 2012",
+          "album": "Mellon Collie And The Infinite Sadness (Remastered)"
+        },
+        {
+          "name": "Tonight, Tonight - Remastered 2012",
+          "album": "Mellon Collie And The Infinite Sadness (Remastered)"
+        },
+        {
+          "name": "Cherub Rock",
+          "album": "Siamese Dream"
+        },
+        {
+          "name": "Rocket",
+          "album": "Siamese Dream"
+        }
+      ]
+    },
+    {
+      "name": "The Rolling Stones",
+      "count": 6,
+      "tracks": [
+        {
+          "name": "Shine A Light",
+          "album": "Exile On Main Street (Deluxe Version)"
+        },
+        {
+          "name": "Tumbling Dice",
+          "album": "Exile On Main Street (Deluxe Version)"
+        },
+        {
+          "name": "Angie - Remastered 2009",
+          "album": "Goats Head Soup (Remastered 2009)"
+        },
+        {
+          "name": "Honky Tonk Women - Mono Version",
+          "album": "Hot Rocks 1964-1971"
+        },
+        {
+          "name": "Gimme Shelter",
+          "album": "Let It Bleed"
+        },
+        {
+          "name": "Brown Sugar - Remastered 2009",
+          "album": "Sticky Fingers (Remastered)"
+        }
+      ]
+    },
+    {
+      "name": "Donny Hathaway",
+      "count": 6,
+      "tracks": [
+        {
+          "name": "A Song for You",
+          "album": "A Donny Hathaway Collection"
+        },
+        {
+          "name": "Little Ghetto Boy",
+          "album": "Come Back Charleston Blue"
+        },
+        {
+          "name": "Sugar Lee",
+          "album": "Everything Is Everything"
+        },
+        {
+          "name": "The Ghetto",
+          "album": "Everything Is Everything"
+        },
+        {
+          "name": "Voices Inside (Everything Is Everything)",
+          "album": "Everything Is Everything"
+        },
+        {
+          "name": "Love, Love, Love",
+          "album": "Extension of a Man"
+        }
+      ]
+    },
+    {
+      "name": "Frank Zappa",
+      "count": 6,
+      "tracks": [
+        {
+          "name": "Uncle Remus",
+          "album": "Apostrophe(')"
+        },
+        {
+          "name": "Peaches En Regalia",
+          "album": "Hot Rats"
+        },
+        {
+          "name": "A Little Green Rosetta",
+          "album": "Joe's Garage Acts I, II & III"
+        },
+        {
+          "name": "Camarillo Brillo",
+          "album": "Over-Nite Sensation"
+        },
+        {
+          "name": "Montana",
+          "album": "Over-Nite Sensation"
+        },
+        {
+          "name": "Flakes",
+          "album": "Sheik Yerbouti"
+        }
+      ]
+    },
+    {
+      "name": "Bruno Mars",
+      "count": 6,
+      "tracks": [
+        {
+          "name": "24K Magic",
+          "album": "24K Magic"
+        },
+        {
+          "name": "Chunky",
+          "album": "24K Magic"
+        },
+        {
+          "name": "God Was Showing Off",
+          "album": "The Romantic"
+        },
+        {
+          "name": "I Just Might",
+          "album": "The Romantic"
+        },
+        {
+          "name": "On My Soul",
+          "album": "The Romantic"
+        },
+        {
+          "name": "When I Was Your Man",
+          "album": "Unorthodox Jukebox"
+        }
+      ]
+    },
+    {
+      "name": "Chris Stapleton",
+      "count": 6,
+      "tracks": [
+        {
+          "name": "I Was Wrong",
+          "album": "From A Room: Volume 1"
+        },
+        {
+          "name": "Without Your Love",
+          "album": "From A Room: Volume 1"
+        },
+        {
+          "name": "Midnight Train To Memphis",
+          "album": "From A Room: Volume 2"
+        },
+        {
+          "name": "Loving You On My Mind",
+          "album": "Higher"
+        },
+        {
+          "name": "White Horse",
+          "album": "Higher"
+        },
+        {
+          "name": "Cold",
+          "album": "Starting Over"
+        }
+      ]
+    },
+    {
+      "name": "Steely Dan",
+      "count": 6,
+      "tracks": [
+        {
+          "name": "Deacon Blues",
+          "album": "Aja"
+        },
+        {
+          "name": "Charlie Freak",
+          "album": "Pretzel Logic"
+        },
+        {
+          "name": "Don't Take Me Alive - 2025 Remaster",
+          "album": "The Royal Scam (2025 Remaster)"
+        },
+        {
+          "name": "Kid Charlemagne - 2025 Remaster",
+          "album": "The Royal Scam (2025 Remaster)"
+        },
+        {
+          "name": "The Caves Of Altamira - 2025 Remaster",
+          "album": "The Royal Scam (2025 Remaster)"
+        },
+        {
+          "name": "The Fez - 2025 Remaster",
+          "album": "The Royal Scam (2025 Remaster)"
+        }
+      ]
+    },
+    {
+      "name": "Simon & Garfunkel",
+      "count": 5,
+      "tracks": [
+        {
+          "name": "Mrs. Robinson - From \"The Graduate\" Soundtrack",
+          "album": "Bookends"
+        },
+        {
+          "name": "Cecilia",
+          "album": "Bridge Over Troubled Water"
+        },
+        {
+          "name": "The Boxer",
+          "album": "Bridge Over Troubled Water"
+        },
+        {
+          "name": "Scarborough Fair / Canticle",
+          "album": "Parsley, Sage, Rosemary And Thyme"
+        },
+        {
+          "name": "The Sound of Silence - Overdubbed Version",
+          "album": "Sounds Of Silence"
+        }
+      ]
+    },
+    {
+      "name": "The Mars Volta",
+      "count": 5,
+      "tracks": [
+        {
+          "name": "Meccamputechture",
+          "album": "Amputechture"
+        },
+        {
+          "name": "Viscera Eyes",
+          "album": "Amputechture"
+        },
+        {
+          "name": "Inertiatic Esp",
+          "album": "Deloused in the Comatorium"
+        },
+        {
+          "name": "L'Via L'Viaquez",
+          "album": "Frances the Mute"
+        },
+        {
+          "name": "The Widow",
+          "album": "The Widow"
+        }
+      ]
+    },
+    {
+      "name": "Sly & The Family Stone",
+      "count": 5,
+      "tracks": [
+        {
+          "name": "If You Want Me to Stay",
+          "album": "Fresh"
+        },
+        {
+          "name": "Thank You (Falettinme Be Mice Elf Agin) - Single Version",
+          "album": "Greatest Hits"
+        },
+        {
+          "name": "Everyday People",
+          "album": "Sly & The Family Stone: The Woodstock Experience"
+        },
+        {
+          "name": "Family Affair - Single Version",
+          "album": "There'S A Riot Goin' On"
+        },
+        {
+          "name": "Luv N' Haight - Single Version",
+          "album": "There'S A Riot Goin' On"
+        }
+      ]
+    },
+    {
+      "name": "Journey",
+      "count": 5,
+      "tracks": [
+        {
+          "name": "Don't Stop Believin'",
+          "album": "Escape (Bonus Track Version)"
+        },
+        {
+          "name": "Don't Stop Believin' (2024 Remaster)",
+          "album": "Greatest Hits (2024 Remaster)"
+        },
+        {
+          "name": "Lights (2024 Remaster)",
+          "album": "Greatest Hits (2024 Remaster)"
+        },
+        {
+          "name": "Lovin', Touchin', Squeezin' (2024 Remaster)",
+          "album": "Greatest Hits (2024 Remaster)"
+        },
+        {
+          "name": "Separate Ways (Worlds Apart) [2024 Remaster]",
+          "album": "Greatest Hits (2024 Remaster)"
+        }
+      ]
+    },
+    {
+      "name": "Maroon 5",
+      "count": 5,
+      "tracks": [
+        {
+          "name": "Back At Your Door",
+          "album": "It Won't Be Soon Before Long (UK/Australia Version)"
+        },
+        {
+          "name": "Makes Me Wonder",
+          "album": "It Won't Be Soon Before Long (UK/Australia Version)"
+        },
+        {
+          "name": "One More Night",
+          "album": "Overexposed"
+        },
+        {
+          "name": "Sunday Morning",
+          "album": "Songs About Jane"
+        },
+        {
+          "name": "This Love",
+          "album": "Songs About Jane"
+        }
+      ]
+    },
+    {
+      "name": "Michael Jackson",
+      "count": 5,
+      "tracks": [
+        {
+          "name": "Burn This Disco Out",
+          "album": "Off the Wall"
+        },
+        {
+          "name": "Don't Stop 'Til You Get Enough",
+          "album": "Off the Wall"
+        },
+        {
+          "name": "Rock with You - Single Version",
+          "album": "Off the Wall"
+        },
+        {
+          "name": "Baby Be Mine",
+          "album": "Thriller"
+        },
+        {
+          "name": "Billie Jean",
+          "album": "Thriller"
+        }
+      ]
+    },
+    {
+      "name": "Yes",
+      "count": 5,
+      "tracks": [
+        {
+          "name": "Leave It",
+          "album": "90125 (Deluxe Version)"
+        },
+        {
+          "name": "And You and I - 2003 Remaster",
+          "album": "Close to the Edge (Deluxe Edition)"
+        },
+        {
+          "name": "Turn of the Century - 2008 Remaster",
+          "album": "Going for the One"
+        },
+        {
+          "name": "To Be Over - 2003 Remaster",
+          "album": "Relayer (Deluxe Edition)"
+        },
+        {
+          "name": "I've Seen All Good People: a. Your Move, b. All Good People - 2003 Remaster",
+          "album": "The Yes Album (Deluxe Edition)"
+        }
+      ]
+    },
+    {
+      "name": "Outkast",
+      "count": 5,
+      "tracks": [
+        {
+          "name": "Rosa Parks",
+          "album": "Big Boi & Dre Present...OutKast"
+        },
+        {
+          "name": "Southernplayalisticadillacmuzik",
+          "album": "Southernplayalisticadillacmuzik"
+        },
+        {
+          "name": "Bowtie (feat. Sleepy Brown & Jazze Pha)",
+          "album": "Speakerboxxx/The Love Below"
+        },
+        {
+          "name": "The Way You Move (feat. Sleepy Brown) - Radio Mix",
+          "album": "Speakerboxxx/The Love Below"
+        },
+        {
+          "name": "Ms. Jackson",
+          "album": "Stankonia"
+        }
+      ]
+    },
+    {
+      "name": "Emerson, Lake & Palmer",
+      "count": 5,
+      "tracks": [
+        {
+          "name": "Brain Salad Surgery - Jakko M Jakszyk 2014 Stereo Mix; B Side Single K10946",
+          "album": "Brain Salad Surgery (Deluxe)"
+        },
+        {
+          "name": "Karn Evil 9 1st Impression, Pt. 2 - 2014 Remaster",
+          "album": "Brain Salad Surgery (Deluxe)"
+        },
+        {
+          "name": "Bitches Crystal - 2012 Stereo Mix",
+          "album": "Tarkus (Deluxe)"
+        },
+        {
+          "name": "From The Beginning",
+          "album": "Trilogy"
+        },
+        {
+          "name": "The Sheriff",
+          "album": "Trilogy"
+        }
+      ]
+    },
+    {
+      "name": "Rod Stewart",
+      "count": 5,
+      "tracks": [
+        {
+          "name": "(Find A) Reason To Believe",
+          "album": "Every Picture Tells A Story"
+        },
+        {
+          "name": "Maggie May",
+          "album": "Every Picture Tells A Story"
+        },
+        {
+          "name": "You Wear It Well",
+          "album": "Never A Dull Moment"
+        },
+        {
+          "name": "The First Cut Is the Deepest - 2008 Remaster",
+          "album": "The Definitive Rod Stewart"
+        },
+        {
+          "name": "Handbags & Gladrags",
+          "album": "Vintage"
+        }
+      ]
+    },
+    {
+      "name": "Gentle Giant",
+      "count": 4,
+      "tracks": [
+        {
+          "name": "Time To Kill",
+          "album": "Free Hand"
+        },
+        {
+          "name": "A Reunion",
+          "album": "In a Glass House"
+        },
+        {
+          "name": "Aspirations",
+          "album": "The Power and the Glory (Mixed by Steven Wilson)"
+        },
+        {
+          "name": "Cogs in Cogs",
+          "album": "The Power and the Glory (Mixed by Steven Wilson)"
+        }
+      ]
+    },
+    {
+      "name": "Parliament",
+      "count": 4,
+      "tracks": [
+        {
+          "name": "Flash Light",
+          "album": "Funkentelechy Vs. The Placebo Syndrome"
+        },
+        {
+          "name": "Mothership Connection (Star Child)",
+          "album": "Mothership Connection"
+        },
+        {
+          "name": "P-Funk (Wants To Get Funked Up)",
+          "album": "Mothership Connection"
+        },
+        {
+          "name": "The Motor-Booty Affair",
+          "album": "Motor-Booty Affair"
+        }
+      ]
+    }
+  ],
+  "by_year": [
+    {
+      "year": 1931,
+      "count": 1,
+      "tracks": [
+        {
+          "name": "Southern Can Is Mine",
+          "artist": "Blind Sammie a.k.a. Blind Willie McTell"
+        }
+      ]
+    },
+    {
+      "year": 1934,
+      "count": 1,
+      "tracks": [
+        {
+          "name": "Anything Goes",
+          "artist": "Cole Porter"
+        }
+      ]
+    },
+    {
+      "year": 1952,
+      "count": 1,
+      "tracks": [
+        {
+          "name": "Bye Ya",
+          "artist": "Thelonious Monk"
+        }
+      ]
+    },
+    {
+      "year": 1954,
+      "count": 1,
+      "tracks": [
+        {
+          "name": "Blue Monk",
+          "artist": "Thelonious Monk"
+        }
+      ]
+    },
+    {
+      "year": 1955,
+      "count": 3,
+      "tracks": [
+        {
+          "name": "Blues For Alice",
+          "artist": "Charlie Parker Quintet"
+        },
+        {
+          "name": "Sh-Boom (Life Could Be a Dream)",
+          "artist": "The Chords"
+        },
+        {
+          "name": "The Great Pretender - Single Version",
+          "artist": "The Platters"
+        }
+      ]
+    },
+    {
+      "year": 1956,
+      "count": 2,
+      "tracks": [
+        {
+          "name": "Sing, Sing, Sing",
+          "artist": "Benny Goodman"
+        },
+        {
+          "name": "A Night In Tunisia",
+          "artist": "Dizzy Gillespie"
+        }
+      ]
+    },
+    {
+      "year": 1957,
+      "count": 5,
+      "tracks": [
+        {
+          "name": "Blue Train",
+          "artist": "John Coltrane"
+        },
+        {
+          "name": "You Send Me",
+          "artist": "Sam Cooke"
+        },
+        {
+          "name": "Not Fade Away",
+          "artist": "The Crickets"
+        },
+        {
+          "name": "Oh Boy!",
+          "artist": "The Crickets"
+        },
+        {
+          "name": "That'll Be The Day",
+          "artist": "The Crickets"
+        }
+      ]
+    },
+    {
+      "year": 1958,
+      "count": 3,
+      "tracks": [
+        {
+          "name": "Moment's Notice",
+          "artist": "John Coltrane"
+        },
+        {
+          "name": "Summertime",
+          "artist": "Sam Cooke"
+        },
+        {
+          "name": "Twilight Time - Single Version",
+          "artist": "The Platters"
+        }
+      ]
+    },
+    {
+      "year": 1959,
+      "count": 9,
+      "tracks": [
+        {
+          "name": "Mack the Knife",
+          "artist": "Bobby Darin"
+        },
+        {
+          "name": "Goodbye Pork Pie Hat",
+          "artist": "Charles Mingus"
+        },
+        {
+          "name": "So What",
+          "artist": "Miles Davis"
+        },
+        {
+          "name": "La Bamba",
+          "artist": "Ritchie Valens"
+        },
+        {
+          "name": "La Bamba - Single Version",
+          "artist": "Ritchie Valens"
+        },
+        {
+          "name": "Chant Of The Moon",
+          "artist": "Robert Drasnin"
+        },
+        {
+          "name": "Chantilly Lace",
+          "artist": "The Big Bopper"
+        },
+        {
+          "name": "Take Five",
+          "artist": "The Dave Brubeck Quartet"
+        },
+        {
+          "name": "Mack the Knife (Remastered)",
+          "artist": "Bobby Darin"
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "count": 5,
+      "tracks": [
+        {
+          "name": "Take the \"A\" Train",
+          "artist": "Duke Ellington"
+        },
+        {
+          "name": "Giant Steps",
+          "artist": "John Coltrane"
+        },
+        {
+          "name": "Mr. P.C.",
+          "artist": "John Coltrane"
+        },
+        {
+          "name": "Only the Lonely (Know the Way I Feel)",
+          "artist": "Roy Orbison"
+        },
+        {
+          "name": "Georgia On My Mind",
+          "artist": "Ray Charles"
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "count": 5,
+      "tracks": [
+        {
+          "name": "Stand By Me",
+          "artist": "Ben E. King"
+        },
+        {
+          "name": "Little Old Lady",
+          "artist": "John Coltrane"
+        },
+        {
+          "name": "Hit The Road Jack",
+          "artist": "Ray Charles"
+        },
+        {
+          "name": "Just For You",
+          "artist": "Sam Cooke"
+        },
+        {
+          "name": "At Last - Single Version",
+          "artist": "Etta James"
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "count": 3,
+      "tracks": [
+        {
+          "name": "Crying",
+          "artist": "Roy Orbison"
+        },
+        {
+          "name": "Having A Party",
+          "artist": "Sam Cooke"
+        },
+        {
+          "name": "Doxy",
+          "artist": "Sonny Rollins"
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "count": 5,
+      "tracks": [
+        {
+          "name": "Louie Louie",
+          "artist": "Kingsmen"
+        },
+        {
+          "name": "Up on the Roof",
+          "artist": "The Drifters"
+        },
+        {
+          "name": "I Want To Hold Your Hand - Remastered 2015",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "She Loves You - Mono / Remastered",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Bye-Ya",
+          "artist": "Thelonious Monk"
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "count": 16,
+      "tracks": [
+        {
+          "name": "No Particular Place To Go",
+          "artist": "Chuck Berry"
+        },
+        {
+          "name": "Cantaloupe Island - Remastered 1999/Rudy Van Gelder Edition",
+          "artist": "Herbie Hancock"
+        },
+        {
+          "name": "Come A Little Bit Closer",
+          "artist": "Jay & The Americans"
+        },
+        {
+          "name": "Goin' Out Of My Head",
+          "artist": "Little Anthony & The Imperials"
+        },
+        {
+          "name": "Good Times",
+          "artist": "Sam Cooke"
+        },
+        {
+          "name": "House Of The Rising Sun",
+          "artist": "The Animals"
+        },
+        {
+          "name": "Don't Worry Baby",
+          "artist": "The Beach Boys"
+        },
+        {
+          "name": "All Day and All of the Night",
+          "artist": "The Kinks"
+        },
+        {
+          "name": "I Feel Fine - Remastered 2015",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Can't Buy Me Love - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "I'll Be Back - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Eight Days A Week - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "I'll Follow The Sun - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "I Get Around - Remastered 2001",
+          "artist": "The Beach Boys"
+        },
+        {
+          "name": "When I Grow Up (To Be A Man) - Remastered",
+          "artist": "The Beach Boys"
+        },
+        {
+          "name": "Help Me Find A Way (To Say I Love You)",
+          "artist": "Little Anthony & The Imperials"
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "count": 22,
+      "tracks": [
+        {
+          "name": "Mr. Tambourine Man",
+          "artist": "Bob Dylan"
+        },
+        {
+          "name": "Same Old Song",
+          "artist": "Four Tops"
+        },
+        {
+          "name": "Hurt So Bad",
+          "artist": "Little Anthony & The Imperials"
+        },
+        {
+          "name": "Uptight (Everything's Alright)",
+          "artist": "Stevie Wonder"
+        },
+        {
+          "name": "Don't Let Me Be Misunderstood",
+          "artist": "The Animals"
+        },
+        {
+          "name": "Turn! Turn! Turn! (To Everything There Is a Season)",
+          "artist": "The Byrds"
+        },
+        {
+          "name": "Under the Boardwalk",
+          "artist": "The Drifters"
+        },
+        {
+          "name": "Unchained Melody",
+          "artist": "The Righteous Brothers"
+        },
+        {
+          "name": "Dirty Water",
+          "artist": "The Standells"
+        },
+        {
+          "name": "People Get Ready - Single Version",
+          "artist": "The Impressions"
+        },
+        {
+          "name": "Ooo Baby Baby",
+          "artist": "Smokey Robinson & The Miracles"
+        },
+        {
+          "name": "The Tracks Of My Tears - Stereo Version",
+          "artist": "Smokey Robinson & The Miracles"
+        },
+        {
+          "name": "California Dreamin' - Single Version",
+          "artist": "The Mamas & The Papas"
+        },
+        {
+          "name": "Help! - Remastered 2015",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "We Can Work It Out - Remastered 2015",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Yesterday - Remastered 2015",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "If I Needed Someone - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "In My Life - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Michelle - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Norwegian Wood (This Bird Has Flown) - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "A Love Supreme, Pt. II - Resolution",
+          "artist": "John Coltrane"
+        },
+        {
+          "name": "We Gotta Get Out Of This Place (US Version)",
+          "artist": "The Animals"
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "count": 18,
+      "tracks": [
+        {
+          "name": "Just Like a Woman",
+          "artist": "Bob Dylan"
+        },
+        {
+          "name": "For What It's Worth",
+          "artist": "Buffalo Springfield"
+        },
+        {
+          "name": "Johnny B. Goode",
+          "artist": "Chuck Berry"
+        },
+        {
+          "name": "I Like It Like That",
+          "artist": "Pete Rodriguez"
+        },
+        {
+          "name": "Soy El Rey",
+          "artist": "Pete Rodriguez"
+        },
+        {
+          "name": "Scarborough Fair / Canticle",
+          "artist": "Simon & Garfunkel"
+        },
+        {
+          "name": "The Sound of Silence - Overdubbed Version",
+          "artist": "Simon & Garfunkel"
+        },
+        {
+          "name": "God Only Knows - Mono",
+          "artist": "The Beach Boys"
+        },
+        {
+          "name": "Wouldn't It Be Nice",
+          "artist": "The Beach Boys"
+        },
+        {
+          "name": "Finnegan's Wake",
+          "artist": "The Dubliners"
+        },
+        {
+          "name": "Summer in the City - Remastered",
+          "artist": "The Lovin' Spoonful"
+        },
+        {
+          "name": "You Keep Me Hangin' On",
+          "artist": "The Supremes"
+        },
+        {
+          "name": "Monday, Monday - Single Version",
+          "artist": "The Mamas & The Papas"
+        },
+        {
+          "name": "Yellow Submarine - Remastered 2015",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "She Said She Said - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Cherish (Re-Recorded)",
+          "artist": "The Association"
+        },
+        {
+          "name": "Bus Stop - 2003 Remaster",
+          "artist": "The Hollies"
+        },
+        {
+          "name": "Good Vibrations - Remastered 2001",
+          "artist": "The Beach Boys"
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "count": 16,
+      "tracks": [
+        {
+          "name": "Wave",
+          "artist": "Antônio Carlos Jobim"
+        },
+        {
+          "name": "To Love Somebody",
+          "artist": "Bee Gees"
+        },
+        {
+          "name": "Can't Take My Eyes off You",
+          "artist": "Frankie Valli"
+        },
+        {
+          "name": "(Your Love Keeps Lifting Me) Higher & Higher",
+          "artist": "Jackie Wilson"
+        },
+        {
+          "name": "White Rabbit",
+          "artist": "Jefferson Airplane"
+        },
+        {
+          "name": "Manic Depression",
+          "artist": "Jimi Hendrix"
+        },
+        {
+          "name": "A Whiter Shade Of Pale",
+          "artist": "Procol Harum"
+        },
+        {
+          "name": "I Was Made To Love Her",
+          "artist": "Stevie Wonder"
+        },
+        {
+          "name": "Daydream Believer",
+          "artist": "The Monkees"
+        },
+        {
+          "name": "I Second That Emotion",
+          "artist": "Smokey Robinson & The Miracles"
+        },
+        {
+          "name": "The Tears Of A Clown - U.S. Single Version",
+          "artist": "Smokey Robinson & The Miracles"
+        },
+        {
+          "name": "All You Need Is Love - Remastered 2015",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Penny Lane - Remastered 2015",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "The Letter (Rerecorded)",
+          "artist": "The Box Tops"
+        },
+        {
+          "name": "The First Cut Is The Deepest - Stereo Version",
+          "artist": "Yusuf / Cat Stevens"
+        },
+        {
+          "name": "What A Wonderful World",
+          "artist": "Louis Armstrong"
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "count": 30,
+      "tracks": [
+        {
+          "name": "And When I Die",
+          "artist": "Blood, Sweat & Tears"
+        },
+        {
+          "name": "More and More",
+          "artist": "Blood, Sweat & Tears"
+        },
+        {
+          "name": "Spinning Wheel",
+          "artist": "Blood, Sweat & Tears"
+        },
+        {
+          "name": "You've Made Me So Very Happy",
+          "artist": "Blood, Sweat & Tears"
+        },
+        {
+          "name": "California Dreamin'",
+          "artist": "Bobby Womack"
+        },
+        {
+          "name": "Take Five",
+          "artist": "Dave Brubeck"
+        },
+        {
+          "name": "A Little Less Conversation",
+          "artist": "Elvis Presley"
+        },
+        {
+          "name": "All Along the Watchtower",
+          "artist": "Jimi Hendrix"
+        },
+        {
+          "name": "With A Little Help From My Friends",
+          "artist": "Joe Cocker"
+        },
+        {
+          "name": "Classical Gas",
+          "artist": "Mason Williams"
+        },
+        {
+          "name": "(Sittin' On) the Dock of the Bay",
+          "artist": "Otis Redding"
+        },
+        {
+          "name": "Hard to Handle",
+          "artist": "Otis Redding"
+        },
+        {
+          "name": "Mrs. Robinson - From \"The Graduate\" Soundtrack",
+          "artist": "Simon & Garfunkel"
+        },
+        {
+          "name": "Everyday People",
+          "artist": "Sly & The Family Stone"
+        },
+        {
+          "name": "For Once In My Life",
+          "artist": "Stevie Wonder"
+        },
+        {
+          "name": "The Weight - Remastered",
+          "artist": "The Band"
+        },
+        {
+          "name": "We're A Winner",
+          "artist": "The Impressions"
+        },
+        {
+          "name": "(Roamin' Thro' The Gloamin' With) 40.000 Headman",
+          "artist": "Traffic"
+        },
+        {
+          "name": "Sweet Thing - 1999 Remaster",
+          "artist": "Van Morrison"
+        },
+        {
+          "name": "The Way Young Lovers Do - 1999 Remaster",
+          "artist": "Van Morrison"
+        },
+        {
+          "name": "Soulful Strut",
+          "artist": "Young-Holt Unlimited"
+        },
+        {
+          "name": "Time of the Season - Mono Version",
+          "artist": "The Zombies"
+        },
+        {
+          "name": "Hey Jude - Remastered 2015",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Lady Madonna - Remastered 2015",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Blackbird - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Martha My Dear - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Mother Nature's Son - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Rocky Raccoon - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Magic Bus - Original Stereo Version",
+          "artist": "The Who"
+        },
+        {
+          "name": "Build Me Up Buttercup",
+          "artist": "The Foundations"
+        }
+      ]
+    },
+    {
+      "year": 1969,
+      "count": 29,
+      "tracks": [
+        {
+          "name": "Whipping Post",
+          "artist": "Allman Brothers Band"
+        },
+        {
+          "name": "Can't Find My Way Home",
+          "artist": "Blind Faith"
+        },
+        {
+          "name": "Lay, Lady, Lay",
+          "artist": "Bob Dylan"
+        },
+        {
+          "name": "To Be Alone with You",
+          "artist": "Bob Dylan"
+        },
+        {
+          "name": "Beginnings - 2002 Remaster",
+          "artist": "Chicago"
+        },
+        {
+          "name": "Badge",
+          "artist": "Cream"
+        },
+        {
+          "name": "Down On The Corner",
+          "artist": "Creedence Clearwater Revival"
+        },
+        {
+          "name": "Suite: Judy Blue Eyes",
+          "artist": "Crosby, Stills & Nash"
+        },
+        {
+          "name": "The Ghetto",
+          "artist": "Donny Hathaway"
+        },
+        {
+          "name": "Can't Help Falling In Love",
+          "artist": "Elvis Presley"
+        },
+        {
+          "name": "My Way [The Frank Sinatra Collection]",
+          "artist": "Frank Sinatra"
+        },
+        {
+          "name": "Peaches En Regalia",
+          "artist": "Frank Zappa"
+        },
+        {
+          "name": "In The Mood",
+          "artist": "Glenn Miller"
+        },
+        {
+          "name": "Something's Coming On - Single Version",
+          "artist": "Joe Cocker"
+        },
+        {
+          "name": "Les Champs-Elysées",
+          "artist": "Joe Dassin"
+        },
+        {
+          "name": "21st Century Schizoid Man",
+          "artist": "King Crimson"
+        },
+        {
+          "name": "Bring It On Home",
+          "artist": "Led Zeppelin"
+        },
+        {
+          "name": "How Many More Times",
+          "artist": "Led Zeppelin"
+        },
+        {
+          "name": "Good Lovin' Ain't Easy To Come By",
+          "artist": "Marvin Gaye"
+        },
+        {
+          "name": "Sweet Caroline",
+          "artist": "Neil Diamond"
+        },
+        {
+          "name": "Autumn Leaves",
+          "artist": "Paul Desmond"
+        },
+        {
+          "name": "Handbags & Gladrags",
+          "artist": "Rod Stewart"
+        },
+        {
+          "name": "Evil Ways",
+          "artist": "Santana"
+        },
+        {
+          "name": "The Boxer",
+          "artist": "Simon & Garfunkel"
+        },
+        {
+          "name": "My Cherie Amour",
+          "artist": "Stevie Wonder"
+        },
+        {
+          "name": "These Eyes",
+          "artist": "The Guess Who"
+        },
+        {
+          "name": "I Want You Back",
+          "artist": "The Jackson 5"
+        },
+        {
+          "name": "She Came In Through The Bathroom Window - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "You Never Give Me Your Money - Remastered 2009",
+          "artist": "The Beatles"
+        }
+      ]
+    },
+    {
+      "year": 1970,
+      "count": 45,
+      "tracks": [
+        {
+          "name": "Hi-De-Ho",
+          "artist": "Blood, Sweat & Tears"
+        },
+        {
+          "name": "Day of the Locusts",
+          "artist": "Bob Dylan"
+        },
+        {
+          "name": "The Man in Me",
+          "artist": "Bob Dylan"
+        },
+        {
+          "name": "Lookin' Out My Back Door",
+          "artist": "Creedence Clearwater Revival"
+        },
+        {
+          "name": "Carry On",
+          "artist": "Crosby, Stills, Nash & Young"
+        },
+        {
+          "name": "Our House",
+          "artist": "Crosby, Stills, Nash & Young"
+        },
+        {
+          "name": "Teach Your Children",
+          "artist": "Crosby, Stills, Nash & Young"
+        },
+        {
+          "name": "Move on Up - Single Edit",
+          "artist": "Curtis Mayfield"
+        },
+        {
+          "name": "Sugar Lee",
+          "artist": "Donny Hathaway"
+        },
+        {
+          "name": "Voices Inside (Everything Is Everything)",
+          "artist": "Donny Hathaway"
+        },
+        {
+          "name": "Border Song",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Come Down In Time",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Country Comfort",
+          "artist": "Elton John"
+        },
+        {
+          "name": "My Father's Gun",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Take Me To The Pilot",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Your Song",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Let It Rain",
+          "artist": "Eric Clapton"
+        },
+        {
+          "name": "Awaiting On You All",
+          "artist": "George Harrison"
+        },
+        {
+          "name": "My Sweet Lord",
+          "artist": "George Harrison"
+        },
+        {
+          "name": "What Is Life",
+          "artist": "George Harrison"
+        },
+        {
+          "name": "Me And Bobby McGee",
+          "artist": "Janis Joplin"
+        },
+        {
+          "name": "The Witch's Promise - 2001 Remaster",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Red House",
+          "artist": "Jimi Hendrix"
+        },
+        {
+          "name": "Feelin' Alright",
+          "artist": "Joe Cocker"
+        },
+        {
+          "name": "Gallows Pole",
+          "artist": "Led Zeppelin"
+        },
+        {
+          "name": "That's The Way",
+          "artist": "Led Zeppelin"
+        },
+        {
+          "name": "Cracklin' Rosie - Single Version",
+          "artist": "Neil Diamond"
+        },
+        {
+          "name": "Maybe I’m Amazed - Remastered 2011",
+          "artist": "Paul McCartney"
+        },
+        {
+          "name": "Black Magic Woman / Gypsy Queen",
+          "artist": "Santana"
+        },
+        {
+          "name": "Oye Como Va",
+          "artist": "Santana"
+        },
+        {
+          "name": "Cecilia",
+          "artist": "Simon & Garfunkel"
+        },
+        {
+          "name": "Thank You (Falettinme Be Mice Elf Agin) - Single Version",
+          "artist": "Sly & The Family Stone"
+        },
+        {
+          "name": "Love the One You're With",
+          "artist": "Stephen Stills"
+        },
+        {
+          "name": "John Barleycorn",
+          "artist": "Traffic"
+        },
+        {
+          "name": "Caravan",
+          "artist": "Van Morrison"
+        },
+        {
+          "name": "Domino - 1999 Remaster",
+          "artist": "Van Morrison"
+        },
+        {
+          "name": "Moondance",
+          "artist": "Van Morrison"
+        },
+        {
+          "name": "The Letter - Live At The Fillmore East",
+          "artist": "Joe Cocker"
+        },
+        {
+          "name": "The Love You Save",
+          "artist": "The Jackson 5"
+        },
+        {
+          "name": "Pictures of a City",
+          "artist": "King Crimson"
+        },
+        {
+          "name": "Sossity: You're a Woman - 2013 Stereo Mix",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Teacher - US Stereo; 2013 Mix",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Across The Universe - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Let It Be - Remastered 2009",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Move on Up - Remastered",
+          "artist": "Curtis Mayfield"
+        }
+      ]
+    },
+    {
+      "year": 1971,
+      "count": 48,
+      "tracks": [
+        {
+          "name": "A Horse with No Name",
+          "artist": "America"
+        },
+        {
+          "name": "Ain't No Sunshine",
+          "artist": "Bill Withers"
+        },
+        {
+          "name": "Go Down Gamblin'",
+          "artist": "Blood, Sweat & Tears"
+        },
+        {
+          "name": "Lisa, Listen to Me",
+          "artist": "Blood, Sweat & Tears"
+        },
+        {
+          "name": "Life On Mars? - 1999 Remastered Version",
+          "artist": "David Bowie"
+        },
+        {
+          "name": "American Pie",
+          "artist": "Don McLean"
+        },
+        {
+          "name": "A Song for You",
+          "artist": "Donny Hathaway"
+        },
+        {
+          "name": "All The Nasties",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Levon",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Razor Face",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Tiny Dancer",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Bitches Crystal - 2012 Stereo Mix",
+          "artist": "Emerson, Lake & Palmer"
+        },
+        {
+          "name": "Debris",
+          "artist": "Faces"
+        },
+        {
+          "name": "Love Lives Here",
+          "artist": "Faces"
+        },
+        {
+          "name": "Hocus Pocus",
+          "artist": "Focus"
+        },
+        {
+          "name": "(You) Got What I Need",
+          "artist": "Freddie Scott"
+        },
+        {
+          "name": "Harlequin - 2007 Stereo Mix",
+          "artist": "Genesis"
+        },
+        {
+          "name": "A Woman Left Lonely",
+          "artist": "Janis Joplin"
+        },
+        {
+          "name": "Trust Me",
+          "artist": "Janis Joplin"
+        },
+        {
+          "name": "Aqualung - Steven Wilson Stereo Remix",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Cheap Day Return - Steven Wilson Stereo Remix",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Life Is A Long Song - 2011 Steven Wilson Remix",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Mother Goose - Steven Wilson Stereo Remix",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Wond'ring Aloud - Steven Wilson Stereo Remix",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Imagine - Remastered 2010",
+          "artist": "John Lennon"
+        },
+        {
+          "name": "Ladies of the Road",
+          "artist": "King Crimson"
+        },
+        {
+          "name": "Mercy Mercy Me (The Ecology)",
+          "artist": "Marvin Gaye"
+        },
+        {
+          "name": "What's Going On",
+          "artist": "Marvin Gaye"
+        },
+        {
+          "name": "Time",
+          "artist": "Pink Floyd"
+        },
+        {
+          "name": "Maggie May",
+          "artist": "Rod Stewart"
+        },
+        {
+          "name": "Wonderful World",
+          "artist": "Sam Cooke"
+        },
+        {
+          "name": "Family Affair - Single Version",
+          "artist": "Sly & The Family Stone"
+        },
+        {
+          "name": "Luv N' Haight - Single Version",
+          "artist": "Sly & The Family Stone"
+        },
+        {
+          "name": "As",
+          "artist": "Stevie Wonder"
+        },
+        {
+          "name": "The Story In Your Eyes",
+          "artist": "The Moody Blues"
+        },
+        {
+          "name": "Gimme Shelter",
+          "artist": "The Rolling Stones"
+        },
+        {
+          "name": "Honky Tonk Women - Mono Version",
+          "artist": "The Rolling Stones"
+        },
+        {
+          "name": "You Are Everything",
+          "artist": "The Stylistics"
+        },
+        {
+          "name": "Baba O'Riley",
+          "artist": "The Who"
+        },
+        {
+          "name": "Bargain",
+          "artist": "The Who"
+        },
+        {
+          "name": "Behind Blue Eyes",
+          "artist": "The Who"
+        },
+        {
+          "name": "Won't Get Fooled Again - Original Album Version",
+          "artist": "The Who"
+        },
+        {
+          "name": "Walk Don't Run",
+          "artist": "Ventures"
+        },
+        {
+          "name": "I've Seen All Good People: a. Your Move, b. All Good People - 2003 Remaster",
+          "artist": "Yes"
+        },
+        {
+          "name": "Brown Sugar - Remastered 2009",
+          "artist": "The Rolling Stones"
+        },
+        {
+          "name": "Tupelo Honey - 2007 Re-mastered",
+          "artist": "Van Morrison"
+        },
+        {
+          "name": "Wild Night - 2007 Re-mastered",
+          "artist": "Van Morrison"
+        },
+        {
+          "name": "People Get Up And Drive Your Funky Soul - Remix",
+          "artist": "James Brown"
+        }
+      ]
+    },
+    {
+      "year": 1972,
+      "count": 29,
+      "tracks": [
+        {
+          "name": "Blue Sky",
+          "artist": "Allman Brothers Band"
+        },
+        {
+          "name": "Melissa",
+          "artist": "Allman Brothers Band"
+        },
+        {
+          "name": "Ventura Highway",
+          "artist": "America"
+        },
+        {
+          "name": "Across 110th Street",
+          "artist": "Bobby Womack"
+        },
+        {
+          "name": "You're So Vain",
+          "artist": "Carly Simon"
+        },
+        {
+          "name": "Gypsys, Tramps & Thieves",
+          "artist": "Cher"
+        },
+        {
+          "name": "Lady Stardust - 1999 Digital Remaster",
+          "artist": "David Bowie"
+        },
+        {
+          "name": "Little Ghetto Boy",
+          "artist": "Donny Hathaway"
+        },
+        {
+          "name": "Mona Lisas And Mad Hatters",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Rocket Man (I Think It's Going To Be A Long, Long Time)",
+          "artist": "Elton John"
+        },
+        {
+          "name": "From The Beginning",
+          "artist": "Emerson, Lake & Palmer"
+        },
+        {
+          "name": "The Sheriff",
+          "artist": "Emerson, Lake & Palmer"
+        },
+        {
+          "name": "Operator (That's Not The Way It Feels)",
+          "artist": "Jim Croce"
+        },
+        {
+          "name": "You Don't Mess Around With Jim",
+          "artist": "Jim Croce"
+        },
+        {
+          "name": "Dancing In the Moonlight",
+          "artist": "King Harvest"
+        },
+        {
+          "name": "Ain't No Sunshine",
+          "artist": "Rahsaan Roland Kirk"
+        },
+        {
+          "name": "You Wear It Well",
+          "artist": "Rod Stewart"
+        },
+        {
+          "name": "Superstition",
+          "artist": "Stevie Wonder"
+        },
+        {
+          "name": "Peace Frog / Blue Sunday",
+          "artist": "The Doors"
+        },
+        {
+          "name": "Frankenstein",
+          "artist": "The Edgar Winter Group"
+        },
+        {
+          "name": "Shine A Light",
+          "artist": "The Rolling Stones"
+        },
+        {
+          "name": "Tumbling Dice",
+          "artist": "The Rolling Stones"
+        },
+        {
+          "name": "I Saw the Light",
+          "artist": "Todd Rundgren"
+        },
+        {
+          "name": "Jackie Wilson Said (I'm In Heaven When You Smile)",
+          "artist": "Van Morrison"
+        },
+        {
+          "name": "And You and I - 2003 Remaster",
+          "artist": "Yes"
+        },
+        {
+          "name": "Lean on Me - Single Version",
+          "artist": "Bill Withers"
+        },
+        {
+          "name": "Thick as a Brick - Edit #1; 2001 Remaster",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Long Cool Woman (In A Black Dress) - Digital Remaster",
+          "artist": "The Hollies"
+        },
+        {
+          "name": "I'll Be Around - 2003 Remaster",
+          "artist": "The Spinners"
+        }
+      ]
+    },
+    {
+      "year": 1973,
+      "count": 42,
+      "tracks": [
+        {
+          "name": "Jessica",
+          "artist": "Allman Brothers Band"
+        },
+        {
+          "name": "Piano Man",
+          "artist": "Billy Joel"
+        },
+        {
+          "name": "Knockin' On Heaven's Door",
+          "artist": "Bob Dylan"
+        },
+        {
+          "name": "4th of July, Asbury Park (Sandy)",
+          "artist": "Bruce Springsteen"
+        },
+        {
+          "name": "Blinded by the Light",
+          "artist": "Bruce Springsteen"
+        },
+        {
+          "name": "Kitty's Back",
+          "artist": "Bruce Springsteen"
+        },
+        {
+          "name": "New York City Serenade",
+          "artist": "Bruce Springsteen"
+        },
+        {
+          "name": "Rosalita (Come out Tonight)",
+          "artist": "Bruce Springsteen"
+        },
+        {
+          "name": "Spirit in the Night",
+          "artist": "Bruce Springsteen"
+        },
+        {
+          "name": "Jolene",
+          "artist": "Dolly Parton"
+        },
+        {
+          "name": "Love, Love, Love",
+          "artist": "Donny Hathaway"
+        },
+        {
+          "name": "Daniel",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Funeral For A Friend / Love Lies Bleeding",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Brain Salad Surgery - Jakko M Jakszyk 2014 Stereo Mix; B Side Single K10946",
+          "artist": "Emerson, Lake & Palmer"
+        },
+        {
+          "name": "Karn Evil 9 1st Impression, Pt. 2 - 2014 Remaster",
+          "artist": "Emerson, Lake & Palmer"
+        },
+        {
+          "name": "Ooh La La",
+          "artist": "Faces"
+        },
+        {
+          "name": "Cosmic Slop",
+          "artist": "Funkadelic"
+        },
+        {
+          "name": "Firth Of Fifth - Remastered 2008",
+          "artist": "Genesis"
+        },
+        {
+          "name": "I Know What I Like (In Your Wardrobe) - Remastered 2008",
+          "artist": "Genesis"
+        },
+        {
+          "name": "The Cinema Show - Remastered 2008",
+          "artist": "Genesis"
+        },
+        {
+          "name": "A Reunion",
+          "artist": "Gentle Giant"
+        },
+        {
+          "name": "Take Some - Leave Some",
+          "artist": "James Brown"
+        },
+        {
+          "name": "Bad, Bad Leroy Brown",
+          "artist": "Jim Croce"
+        },
+        {
+          "name": "Jungle Boogie",
+          "artist": "Kool & The Gang"
+        },
+        {
+          "name": "The Ocean",
+          "artist": "Led Zeppelin"
+        },
+        {
+          "name": "Come Get To This",
+          "artist": "Marvin Gaye"
+        },
+        {
+          "name": "Kodachrome",
+          "artist": "Paul Simon"
+        },
+        {
+          "name": "Money",
+          "artist": "Pink Floyd"
+        },
+        {
+          "name": "Killing Me Softly With His Song",
+          "artist": "Roberta Flack"
+        },
+        {
+          "name": "If You Want Me to Stay",
+          "artist": "Sly & The Family Stone"
+        },
+        {
+          "name": "Don't You Worry 'Bout A Thing",
+          "artist": "Stevie Wonder"
+        },
+        {
+          "name": "Higher Ground",
+          "artist": "Stevie Wonder"
+        },
+        {
+          "name": "Could It Be I'm Falling in Love",
+          "artist": "The Spinners"
+        },
+        {
+          "name": "You Make Me Feel Brand New",
+          "artist": "The Stylistics"
+        },
+        {
+          "name": "Love Reign O'er Me - 1996 Remastered Version",
+          "artist": "The Who"
+        },
+        {
+          "name": "Funky Kingston",
+          "artist": "Toots & The Maytals"
+        },
+        {
+          "name": "Camarillo Brillo",
+          "artist": "Frank Zappa"
+        },
+        {
+          "name": "Bennie And The Jets - Remastered 2014",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Angie - Remastered 2009",
+          "artist": "The Rolling Stones"
+        },
+        {
+          "name": "Drift Away (Rerecorded)",
+          "artist": "Dobie Gray"
+        },
+        {
+          "name": "Baby We've Got A Date (Rock It Baby)",
+          "artist": "Bob Marley & The Wailers"
+        },
+        {
+          "name": "Montana",
+          "artist": "Frank Zappa"
+        }
+      ]
+    },
+    {
+      "year": 1974,
+      "count": 22,
+      "tracks": [
+        {
+          "name": "How Long",
+          "artist": "Ace"
+        },
+        {
+          "name": "Tin Man",
+          "artist": "America"
+        },
+        {
+          "name": "No Woman No Cry",
+          "artist": "Bob Marley & The Wailers"
+        },
+        {
+          "name": "Uncle Remus",
+          "artist": "Frank Zappa"
+        },
+        {
+          "name": "Carpet Crawlers",
+          "artist": "Genesis"
+        },
+        {
+          "name": "Counting Out Time",
+          "artist": "Genesis"
+        },
+        {
+          "name": "Aspirations",
+          "artist": "Gentle Giant"
+        },
+        {
+          "name": "Cogs in Cogs",
+          "artist": "Gentle Giant"
+        },
+        {
+          "name": "Midnight Train to Georgia",
+          "artist": "Gladys Knight & The Pips"
+        },
+        {
+          "name": "Cat's in the Cradle",
+          "artist": "Harry Chapin"
+        },
+        {
+          "name": "The Night Watch",
+          "artist": "King Crimson"
+        },
+        {
+          "name": "Darkest Light",
+          "artist": "Lafayette Afro Rock Band"
+        },
+        {
+          "name": "Let's Get It On",
+          "artist": "Marvin Gaye"
+        },
+        {
+          "name": "Killer Queen - Remastered 2011",
+          "artist": "Queen"
+        },
+        {
+          "name": "Charlie Freak",
+          "artist": "Steely Dan"
+        },
+        {
+          "name": "Leaving Here - Demo Recording",
+          "artist": "The Who"
+        },
+        {
+          "name": "To Be Over - 2003 Remaster",
+          "artist": "Yes"
+        },
+        {
+          "name": "Skating Away on the Thin Ice of the New Day - 2002 Remaster",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Only Solitaire - 2002 Remaster",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "So Jah S'eh",
+          "artist": "Bob Marley & The Wailers"
+        },
+        {
+          "name": "Doctor Diamond - Live (Pittsburgh, PA - Stanley Warner Theatre: April 29th, 1974)",
+          "artist": "King Crimson"
+        },
+        {
+          "name": "Dr. Diamond (from: King Crimson Collectors' Club 15) - Live in Mainz",
+          "artist": "King Crimson"
+        }
+      ]
+    },
+    {
+      "year": 1975,
+      "count": 20,
+      "tracks": [
+        {
+          "name": "Hurricane",
+          "artist": "Bob Dylan"
+        },
+        {
+          "name": "Tangled Up In Blue",
+          "artist": "Bob Dylan"
+        },
+        {
+          "name": "I Shot The Sheriff",
+          "artist": "Bob Marley & The Wailers"
+        },
+        {
+          "name": "Jungleland",
+          "artist": "Bruce Springsteen"
+        },
+        {
+          "name": "Thunder Road",
+          "artist": "Bruce Springsteen"
+        },
+        {
+          "name": "Star",
+          "artist": "Earth, Wind & Fire"
+        },
+        {
+          "name": "Evil Woman",
+          "artist": "Electric Light Orchestra"
+        },
+        {
+          "name": "Tower Of Babel",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Time To Kill",
+          "artist": "Gentle Giant"
+        },
+        {
+          "name": "Love Rollercoaster",
+          "artist": "Ohio Players"
+        },
+        {
+          "name": "Mothership Connection (Star Child)",
+          "artist": "Parliament"
+        },
+        {
+          "name": "P-Funk (Wants To Get Funked Up)",
+          "artist": "Parliament"
+        },
+        {
+          "name": "Wish You Were Here - 1992 Digital Remaster",
+          "artist": "Pink Floyd"
+        },
+        {
+          "name": "You're My Best Friend",
+          "artist": "Queen"
+        },
+        {
+          "name": "Summerday Sands - 2002 Remaster",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Crash-Barrier Waltzer - Steven Wilson Stereo Remix",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Ten Years Gone - Remaster",
+          "artist": "Led Zeppelin"
+        },
+        {
+          "name": "Seaside Rendezvous - Remastered 2011",
+          "artist": "Queen"
+        },
+        {
+          "name": "Lost In The Flood - Live at Hammersmith Odeon Audio",
+          "artist": "Bruce Springsteen"
+        },
+        {
+          "name": "Thunder Road - The Song - Live at the Hammersmith Odeon, London, UK - November 1975",
+          "artist": "Bruce Springsteen"
+        }
+      ]
+    },
+    {
+      "year": 1976,
+      "count": 26,
+      "tracks": [
+        {
+          "name": "Johnny Was",
+          "artist": "Bob Marley & The Wailers"
+        },
+        {
+          "name": "Mainstreet",
+          "artist": "Bob Seger"
+        },
+        {
+          "name": "Turn The Page - Live In Detroit/1975",
+          "artist": "Bob Seger"
+        },
+        {
+          "name": "Lido Shuffle",
+          "artist": "Boz Scaggs"
+        },
+        {
+          "name": "Bad Moon Rising - Remastered 1985",
+          "artist": "Creedence Clearwater Revival"
+        },
+        {
+          "name": "Get Up Offa That Thing",
+          "artist": "James Brown"
+        },
+        {
+          "name": "Rainbow Blues",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Nobody's Fault But Mine",
+          "artist": "Led Zeppelin"
+        },
+        {
+          "name": "Baby, I Love Your Way - Live",
+          "artist": "Peter Frampton"
+        },
+        {
+          "name": "Somebody To Love",
+          "artist": "Queen"
+        },
+        {
+          "name": "Another Star",
+          "artist": "Stevie Wonder"
+        },
+        {
+          "name": "I Wish",
+          "artist": "Stevie Wonder"
+        },
+        {
+          "name": "Knocks Me Off My Feet",
+          "artist": "Stevie Wonder"
+        },
+        {
+          "name": "Love's In Need Of Love Today",
+          "artist": "Stevie Wonder"
+        },
+        {
+          "name": "Ordinary Pain",
+          "artist": "Stevie Wonder"
+        },
+        {
+          "name": "Sir Duke",
+          "artist": "Stevie Wonder"
+        },
+        {
+          "name": "Takin' It to the Streets",
+          "artist": "The Doobie Brothers"
+        },
+        {
+          "name": "A Trick of the Tail - 2007 Remaster",
+          "artist": "Genesis"
+        },
+        {
+          "name": "Mad Man Moon - 2007 Remaster",
+          "artist": "Genesis"
+        },
+        {
+          "name": "Squonk - 2007 Remaster",
+          "artist": "Genesis"
+        },
+        {
+          "name": "Don't Take Me Alive - 2025 Remaster",
+          "artist": "Steely Dan"
+        },
+        {
+          "name": "Kid Charlemagne - 2025 Remaster",
+          "artist": "Steely Dan"
+        },
+        {
+          "name": "The Caves Of Altamira - 2025 Remaster",
+          "artist": "Steely Dan"
+        },
+        {
+          "name": "The Fez - 2025 Remaster",
+          "artist": "Steely Dan"
+        },
+        {
+          "name": "Night Moves",
+          "artist": "Bob Seger"
+        },
+        {
+          "name": "The First Cut Is the Deepest - 2008 Remaster",
+          "artist": "Rod Stewart"
+        }
+      ]
+    },
+    {
+      "year": 1977,
+      "count": 27,
+      "tracks": [
+        {
+          "name": "Lovely Day",
+          "artist": "Bill Withers"
+        },
+        {
+          "name": "Movin' Out (Anthony's Song)",
+          "artist": "Billy Joel"
+        },
+        {
+          "name": "Scenes from an Italian Restaurant",
+          "artist": "Billy Joel"
+        },
+        {
+          "name": "She's Always a Woman",
+          "artist": "Billy Joel"
+        },
+        {
+          "name": "Jamming",
+          "artist": "Bob Marley & The Wailers"
+        },
+        {
+          "name": "Natural Mystic",
+          "artist": "Bob Marley & The Wailers"
+        },
+        {
+          "name": "One Love / People Get Ready",
+          "artist": "Bob Marley & The Wailers"
+        },
+        {
+          "name": "Easy",
+          "artist": "Commodores"
+        },
+        {
+          "name": "Mr. Blue Sky",
+          "artist": "Electric Light Orchestra"
+        },
+        {
+          "name": "Dreams",
+          "artist": "Fleetwood Mac"
+        },
+        {
+          "name": "Gold Dust Woman",
+          "artist": "Fleetwood Mac"
+        },
+        {
+          "name": "Songbird - 2004 Remaster",
+          "artist": "Fleetwood Mac"
+        },
+        {
+          "name": "The Chain",
+          "artist": "Fleetwood Mac"
+        },
+        {
+          "name": "Cold as Ice",
+          "artist": "Foreigner"
+        },
+        {
+          "name": "The Load Out",
+          "artist": "Jackson Browne"
+        },
+        {
+          "name": "Roadrunner",
+          "artist": "Jonathan Richman & The Modern Lovers"
+        },
+        {
+          "name": "Flash Light",
+          "artist": "Parliament"
+        },
+        {
+          "name": "Solsbury Hill",
+          "artist": "Peter Gabriel"
+        },
+        {
+          "name": "Baby Come Back",
+          "artist": "Player"
+        },
+        {
+          "name": "Closer To The Heart",
+          "artist": "Rush"
+        },
+        {
+          "name": "Deacon Blues",
+          "artist": "Steely Dan"
+        },
+        {
+          "name": "Jet Airliner",
+          "artist": "Steve Miller Band"
+        },
+        {
+          "name": "Give A Little Bit",
+          "artist": "Supertramp"
+        },
+        {
+          "name": "Turn of the Century - 2008 Remaster",
+          "artist": "Yes"
+        },
+        {
+          "name": "One for the Vine - 2007 Remaster",
+          "artist": "Genesis"
+        },
+        {
+          "name": "Fire at Midnight - Steven Wilson Stereo Remix",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Songs from the Wood - Steven Wilson Stereo Remix",
+          "artist": "Jethro Tull"
+        }
+      ]
+    },
+    {
+      "year": 1978,
+      "count": 31,
+      "tracks": [
+        {
+          "name": "Boogie Oogie Oogie - Single Version 2 / Remastered 1999",
+          "artist": "A Taste Of Honey"
+        },
+        {
+          "name": "Night Fever - 2007 Remastered Version Saturday Night Fever",
+          "artist": "Bee Gees"
+        },
+        {
+          "name": "Stayin' Alive - 2007 Remastered Version Saturday Night Fever",
+          "artist": "Bee Gees"
+        },
+        {
+          "name": "Is This Love",
+          "artist": "Bob Marley & The Wailers"
+        },
+        {
+          "name": "Time Will Tell",
+          "artist": "Bob Marley & The Wailers"
+        },
+        {
+          "name": "Hollywood Nights",
+          "artist": "Bob Seger"
+        },
+        {
+          "name": "We've Got Tonight",
+          "artist": "Bob Seger"
+        },
+        {
+          "name": "Don't Look Back",
+          "artist": "Boston"
+        },
+        {
+          "name": "Feelin' Satisfied",
+          "artist": "Boston"
+        },
+        {
+          "name": "Sultans of Swing",
+          "artist": "Dire Straits"
+        },
+        {
+          "name": "September",
+          "artist": "Earth, Wind & Fire"
+        },
+        {
+          "name": "Follow You Follow Me",
+          "artist": "Genesis"
+        },
+        {
+          "name": "Baker Street",
+          "artist": "Gerry Rafferty"
+        },
+        {
+          "name": "The Gambler",
+          "artist": "Kenny Rogers"
+        },
+        {
+          "name": "The Motor-Booty Affair",
+          "artist": "Parliament"
+        },
+        {
+          "name": "Because the Night",
+          "artist": "Patti Smith"
+        },
+        {
+          "name": "(Find A) Reason To Believe",
+          "artist": "Rod Stewart"
+        },
+        {
+          "name": "Hold the Line",
+          "artist": "TOTO"
+        },
+        {
+          "name": "All Mixed Up",
+          "artist": "The Cars"
+        },
+        {
+          "name": "Bye Bye Love",
+          "artist": "The Cars"
+        },
+        {
+          "name": "What a Fool Believes",
+          "artist": "The Doobie Brothers"
+        },
+        {
+          "name": "Ain't Talkin' 'Bout Love",
+          "artist": "Van Halen"
+        },
+        {
+          "name": "Botanic Man - Steven Wilson Stereo Remix",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Jack-a-Lynn - Steven Wilson Stereo Remix",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Many Too Many - 2007 Remaster",
+          "artist": "Genesis"
+        },
+        {
+          "name": "Undertow - 2007 Remaster",
+          "artist": "Genesis"
+        },
+        {
+          "name": "Moths - 2003 Remaster",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Lights (2024 Remaster)",
+          "artist": "Journey"
+        },
+        {
+          "name": "Don't Stop Me Now - Remastered 2011",
+          "artist": "Queen"
+        },
+        {
+          "name": "Fat Bottomed Girls - Single Version / Remastered 2011",
+          "artist": "Queen"
+        },
+        {
+          "name": "I Will Survive - Single Version",
+          "artist": "Gloria Gaynor"
+        }
+      ]
+    },
+    {
+      "year": 1979,
+      "count": 25,
+      "tracks": [
+        {
+          "name": "Bad Girls",
+          "artist": "Donna Summer"
+        },
+        {
+          "name": "After the Love Has Gone",
+          "artist": "Earth, Wind & Fire"
+        },
+        {
+          "name": "In The Stone",
+          "artist": "Earth, Wind & Fire"
+        },
+        {
+          "name": "A Little Green Rosetta",
+          "artist": "Frank Zappa"
+        },
+        {
+          "name": "Flakes",
+          "artist": "Frank Zappa"
+        },
+        {
+          "name": "Bat Out of Hell",
+          "artist": "Meat Loaf"
+        },
+        {
+          "name": "Burn This Disco Out",
+          "artist": "Michael Jackson"
+        },
+        {
+          "name": "Don't Stop 'Til You Get Enough",
+          "artist": "Michael Jackson"
+        },
+        {
+          "name": "Rock with You - Single Version",
+          "artist": "Michael Jackson"
+        },
+        {
+          "name": "Comfortably Numb",
+          "artist": "Pink Floyd"
+        },
+        {
+          "name": "Why You Wanna Treat Me so Bad?",
+          "artist": "Prince"
+        },
+        {
+          "name": "Here Comes The Flood - First Edition: Original 1979 Release",
+          "artist": "Robert Fripp"
+        },
+        {
+          "name": "Cruisin'",
+          "artist": "Smokey Robinson"
+        },
+        {
+          "name": "Breakfast In America - Remastered 2010",
+          "artist": "Supertramp"
+        },
+        {
+          "name": "Take The Long Way Home - Remastered 2010",
+          "artist": "Supertramp"
+        },
+        {
+          "name": "The Logical Song - Remastered 2010",
+          "artist": "Supertramp"
+        },
+        {
+          "name": "Good Timin'",
+          "artist": "The Beach Boys"
+        },
+        {
+          "name": "Dangerous Type",
+          "artist": "The Cars"
+        },
+        {
+          "name": "Let's Go",
+          "artist": "The Cars"
+        },
+        {
+          "name": "Revolution Rock",
+          "artist": "The Clash"
+        },
+        {
+          "name": "Train in Vain",
+          "artist": "The Clash"
+        },
+        {
+          "name": "Dance The Night Away",
+          "artist": "Van Halen"
+        },
+        {
+          "name": "Dun Ringill - Steven Wilson Stereo Remix",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Lovin', Touchin', Squeezin' (2024 Remaster)",
+          "artist": "Journey"
+        },
+        {
+          "name": "Crazy Little Thing Called Love - Remastered",
+          "artist": "Queen"
+        }
+      ]
+    },
+    {
+      "year": 1980,
+      "count": 24,
+      "tracks": [
+        {
+          "name": "Back In Black",
+          "artist": "AC/DC"
+        },
+        {
+          "name": "Rock and Roll Ain't Noise Pollution",
+          "artist": "AC/DC"
+        },
+        {
+          "name": "Could You Be Loved",
+          "artist": "Bob Marley & The Wailers"
+        },
+        {
+          "name": "I'm Coming Out",
+          "artist": "Diana Ross"
+        },
+        {
+          "name": "Upside Down",
+          "artist": "Diana Ross"
+        },
+        {
+          "name": "Misunderstanding - Remastered 2007",
+          "artist": "Genesis"
+        },
+        {
+          "name": "Turn It On Again - Remastered 2007",
+          "artist": "Genesis"
+        },
+        {
+          "name": "Watching The Wheels - Remastered 2010",
+          "artist": "John Lennon"
+        },
+        {
+          "name": "Woman - Remastered 2010",
+          "artist": "John Lennon"
+        },
+        {
+          "name": "Fantastic Voyage",
+          "artist": "Lakeside"
+        },
+        {
+          "name": "Down Under",
+          "artist": "Men At Work"
+        },
+        {
+          "name": "Let My Love Open The Door",
+          "artist": "Pete Townshend"
+        },
+        {
+          "name": "Games Without Frontiers",
+          "artist": "Peter Gabriel"
+        },
+        {
+          "name": "I Don't Remember",
+          "artist": "Peter Gabriel"
+        },
+        {
+          "name": "Do It All Night",
+          "artist": "Prince"
+        },
+        {
+          "name": "Gotta Broken Heart Again",
+          "artist": "Prince"
+        },
+        {
+          "name": "Uptown",
+          "artist": "Prince"
+        },
+        {
+          "name": "Arc Of A Diver",
+          "artist": "Steve Winwood"
+        },
+        {
+          "name": "While You See A Chance",
+          "artist": "Steve Winwood"
+        },
+        {
+          "name": "Born Under Punches (The Heat Goes On) - 2005 Remaster",
+          "artist": "Talking Heads"
+        },
+        {
+          "name": "Once in a Lifetime - 2005 Remaster",
+          "artist": "Talking Heads"
+        },
+        {
+          "name": "Just the Two of Us (feat. Bill Withers) - Edit",
+          "artist": "Grover Washington, Jr."
+        },
+        {
+          "name": "Fylingdale Flyer - 2004 Remaster",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Theme From New York, New York - Remastered ) [The Frank Sinatra Collection]",
+          "artist": "Frank Sinatra"
+        }
+      ]
+    },
+    {
+      "year": 1981,
+      "count": 11,
+      "tracks": [
+        {
+          "name": "For Those About to Rock (We Salute You)",
+          "artist": "AC/DC"
+        },
+        {
+          "name": "Urgent",
+          "artist": "Foreigner"
+        },
+        {
+          "name": "Don't Stop Believin'",
+          "artist": "Journey"
+        },
+        {
+          "name": "Frame By Frame",
+          "artist": "King Crimson"
+        },
+        {
+          "name": "In The Air Tonight",
+          "artist": "Phil Collins"
+        },
+        {
+          "name": "The Roof Is Leaking",
+          "artist": "Phil Collins"
+        },
+        {
+          "name": "Under Pressure",
+          "artist": "Queen"
+        },
+        {
+          "name": "Limelight",
+          "artist": "Rush"
+        },
+        {
+          "name": "Red Barchetta",
+          "artist": "Rush"
+        },
+        {
+          "name": "Every Little Thing She Does Is Magic - Remastered 2003",
+          "artist": "The Police"
+        },
+        {
+          "name": "Don't Stop Believin' (2024 Remaster)",
+          "artist": "Journey"
+        }
+      ]
+    },
+    {
+      "year": 1982,
+      "count": 17,
+      "tracks": [
+        {
+          "name": "Heat Of The Moment",
+          "artist": "Asia"
+        },
+        {
+          "name": "Only Time Will Tell",
+          "artist": "Asia"
+        },
+        {
+          "name": "Southern Cross",
+          "artist": "Crosby, Stills & Nash"
+        },
+        {
+          "name": "Steppin' Out",
+          "artist": "Joe Jackson"
+        },
+        {
+          "name": "Give It Up",
+          "artist": "KC & The Sunshine Band"
+        },
+        {
+          "name": "Neal And Jack And Me",
+          "artist": "King Crimson"
+        },
+        {
+          "name": "Get Down On It",
+          "artist": "Kool & The Gang"
+        },
+        {
+          "name": "Hey, Hey, What Can I Do - Remaster",
+          "artist": "Led Zeppelin"
+        },
+        {
+          "name": "Baby Be Mine",
+          "artist": "Michael Jackson"
+        },
+        {
+          "name": "Billie Jean",
+          "artist": "Michael Jackson"
+        },
+        {
+          "name": "D.M.S.R.",
+          "artist": "Prince"
+        },
+        {
+          "name": "Eye of the Tiger",
+          "artist": "Survivor"
+        },
+        {
+          "name": "Africa",
+          "artist": "TOTO"
+        },
+        {
+          "name": "Rosanna",
+          "artist": "TOTO"
+        },
+        {
+          "name": "Rock the Casbah",
+          "artist": "The Clash"
+        },
+        {
+          "name": "Cool Cat - Remastered 2011",
+          "artist": "Queen"
+        },
+        {
+          "name": "Valerie - Remastered 2010",
+          "artist": "Steve Winwood"
+        }
+      ]
+    },
+    {
+      "year": 1983,
+      "count": 14,
+      "tracks": [
+        {
+          "name": "Karma Chameleon",
+          "artist": "Culture Club"
+        },
+        {
+          "name": "Time After Time",
+          "artist": "Cyndi Lauper"
+        },
+        {
+          "name": "I Guess That's Why They Call It The Blues",
+          "artist": "Elton John"
+        },
+        {
+          "name": "Sweet Dreams (Are Made of This) - 2005 Remaster",
+          "artist": "Eurythmics"
+        },
+        {
+          "name": "Taking It All Too Hard - Digital Remastered 2007",
+          "artist": "Genesis"
+        },
+        {
+          "name": "That's All - Remastered 2007",
+          "artist": "Genesis"
+        },
+        {
+          "name": "Hello",
+          "artist": "Lionel Richie"
+        },
+        {
+          "name": "Borderline",
+          "artist": "Madonna"
+        },
+        {
+          "name": "Charting the Single - 1997 Remaster",
+          "artist": "Marillion"
+        },
+        {
+          "name": "Sexual Healing",
+          "artist": "Marvin Gaye"
+        },
+        {
+          "name": "Break My Stride",
+          "artist": "Matthew Wilder"
+        },
+        {
+          "name": "Leave It",
+          "artist": "Yes"
+        },
+        {
+          "name": "Separate Ways (Worlds Apart) [2024 Remaster]",
+          "artist": "Journey"
+        },
+        {
+          "name": "All Night Long (All Night) - Single Version",
+          "artist": "Lionel Richie"
+        }
+      ]
+    },
+    {
+      "year": 1984,
+      "count": 10,
+      "tracks": [
+        {
+          "name": "Easy Lover",
+          "artist": "Philip Bailey"
+        },
+        {
+          "name": "Suddenly",
+          "artist": "Billy Ocean"
+        },
+        {
+          "name": "Dancing In The Dark",
+          "artist": "Bruce Springsteen"
+        },
+        {
+          "name": "I Want to Know What Love Is - 1999 Remaster",
+          "artist": "Foreigner"
+        },
+        {
+          "name": "Careless Whisper - Extended Mix",
+          "artist": "George Michael"
+        },
+        {
+          "name": "Sleepless",
+          "artist": "King Crimson"
+        },
+        {
+          "name": "Three of a Perfect Pair",
+          "artist": "King Crimson"
+        },
+        {
+          "name": "Let's Go Crazy",
+          "artist": "Prince"
+        },
+        {
+          "name": "It's My Life - 1997 Remaster",
+          "artist": "Talk Talk"
+        },
+        {
+          "name": "Cinderella Search - Single Version",
+          "artist": "Marillion"
+        }
+      ]
+    },
+    {
+      "year": 1985,
+      "count": 6,
+      "tracks": [
+        {
+          "name": "It Was A Accident",
+          "artist": "NRBQ"
+        },
+        {
+          "name": "Raspberry Beret",
+          "artist": "Prince"
+        },
+        {
+          "name": "She's Always in My Hair",
+          "artist": "Prince"
+        },
+        {
+          "name": "And She Was",
+          "artist": "Talking Heads"
+        },
+        {
+          "name": "The Lady Don't Mind",
+          "artist": "Talking Heads"
+        },
+        {
+          "name": "Downtown Train",
+          "artist": "Tom Waits"
+        }
+      ]
+    },
+    {
+      "year": 1986,
+      "count": 9,
+      "tracks": [
+        {
+          "name": "Livin' On A Prayer",
+          "artist": "Bon Jovi"
+        },
+        {
+          "name": "You Give Love A Bad Name",
+          "artist": "Bon Jovi"
+        },
+        {
+          "name": "Throwing It All Away",
+          "artist": "Genesis"
+        },
+        {
+          "name": "In Your Eyes",
+          "artist": "Peter Gabriel"
+        },
+        {
+          "name": "Mercy Street",
+          "artist": "Peter Gabriel"
+        },
+        {
+          "name": "Sledgehammer - Remastered 2002",
+          "artist": "Peter Gabriel"
+        },
+        {
+          "name": "Kiss",
+          "artist": "Prince"
+        },
+        {
+          "name": "Back In The High Life Again",
+          "artist": "Steve Winwood"
+        },
+        {
+          "name": "Higher Love",
+          "artist": "Steve Winwood"
+        }
+      ]
+    },
+    {
+      "year": 1987,
+      "count": 14,
+      "tracks": [
+        {
+          "name": "Masquerade",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "name": "Think Of Me - Edit",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "name": "Faith - Remastered",
+          "artist": "George Michael"
+        },
+        {
+          "name": "Father Figure - Remastered",
+          "artist": "George Michael"
+        },
+        {
+          "name": "Rocket Queen",
+          "artist": "Guns N' Roses"
+        },
+        {
+          "name": "You're Crazy",
+          "artist": "Guns N' Roses"
+        },
+        {
+          "name": "Cherry Bomb",
+          "artist": "John Mellencamp"
+        },
+        {
+          "name": "Sugar Mice - 1999 Remaster",
+          "artist": "Marillion"
+        },
+        {
+          "name": "Slow Love",
+          "artist": "Prince"
+        },
+        {
+          "name": "Starfish and Coffee",
+          "artist": "Prince"
+        },
+        {
+          "name": "Time Stand Still",
+          "artist": "Rush"
+        },
+        {
+          "name": "I'm No Angel",
+          "artist": "The Gregg Allman Band"
+        },
+        {
+          "name": "Budapest - 2005 Remaster",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "The Music Of The Night",
+          "artist": "Andrew Lloyd Webber"
+        }
+      ]
+    },
+    {
+      "year": 1988,
+      "count": 6,
+      "tracks": [
+        {
+          "name": "Good Thing",
+          "artist": "Fine Young Cannibals"
+        },
+        {
+          "name": "Patience",
+          "artist": "Guns N' Roses"
+        },
+        {
+          "name": "Alphabet St.",
+          "artist": "Prince"
+        },
+        {
+          "name": "You Got It",
+          "artist": "Roy Orbison"
+        },
+        {
+          "name": "Baby Can I Hold You",
+          "artist": "Tracy Chapman"
+        },
+        {
+          "name": "Fast Car",
+          "artist": "Tracy Chapman"
+        }
+      ]
+    },
+    {
+      "year": 1989,
+      "count": 8,
+      "tracks": [
+        {
+          "name": "The Humpty Dance",
+          "artist": "Digital Underground"
+        },
+        {
+          "name": "Old Love",
+          "artist": "Eric Clapton"
+        },
+        {
+          "name": "Like a Prayer",
+          "artist": "Madonna"
+        },
+        {
+          "name": "Crown Of Thorns",
+          "artist": "Mother Love Bone"
+        },
+        {
+          "name": "Tightrope",
+          "artist": "Stevie Ray Vaughan"
+        },
+        {
+          "name": "Lovesong",
+          "artist": "The Cure"
+        },
+        {
+          "name": "Have I Told You Lately?",
+          "artist": "Van Morrison"
+        },
+        {
+          "name": "I Want It All - Remastered 2011",
+          "artist": "Queen"
+        }
+      ]
+    },
+    {
+      "year": 1990,
+      "count": 9,
+      "tracks": [
+        {
+          "name": "Man in the Box",
+          "artist": "Alice In Chains"
+        },
+        {
+          "name": "Ain't No Woman (Like the One I Got)",
+          "artist": "Four Tops"
+        },
+        {
+          "name": "We Can Funk",
+          "artist": "George Clinton"
+        },
+        {
+          "name": "Easter",
+          "artist": "Marillion"
+        },
+        {
+          "name": "Nothing Compares 2 U",
+          "artist": "Sinéad O'Connor"
+        },
+        {
+          "name": "Jealous Again",
+          "artist": "The Black Crowes"
+        },
+        {
+          "name": "She Talks To Angels",
+          "artist": "The Black Crowes"
+        },
+        {
+          "name": "Twice As Hard",
+          "artist": "The Black Crowes"
+        },
+        {
+          "name": "Feels Good",
+          "artist": "Tony! Toni! Toné!"
+        }
+      ]
+    },
+    {
+      "year": 1991,
+      "count": 18,
+      "tracks": [
+        {
+          "name": "Sunless Saturday",
+          "artist": "Fishbone"
+        },
+        {
+          "name": "Don't Cry (Original)",
+          "artist": "Guns N' Roses"
+        },
+        {
+          "name": "November Rain",
+          "artist": "Guns N' Roses"
+        },
+        {
+          "name": "San Juanitos",
+          "artist": "Inca Son"
+        },
+        {
+          "name": "Come As You Are",
+          "artist": "Nirvana"
+        },
+        {
+          "name": "Smells Like Teen Spirit",
+          "artist": "Nirvana"
+        },
+        {
+          "name": "Jeremy - Brendan O'Brien Mix",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Porch - Brendan O'Brien Mix",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Diamonds and Pearls",
+          "artist": "Prince"
+        },
+        {
+          "name": "Losing My Religion",
+          "artist": "R.E.M."
+        },
+        {
+          "name": "Soul to Squeeze",
+          "artist": "Red Hot Chili Peppers"
+        },
+        {
+          "name": "Outshined",
+          "artist": "Soundgarden"
+        },
+        {
+          "name": "Hunger Strike",
+          "artist": "Temple Of The Dog"
+        },
+        {
+          "name": "Alive",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Black",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Even Flow",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Rocks on the Road - 2006 Remaster",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Under the Bridge",
+          "artist": "Red Hot Chili Peppers"
+        }
+      ]
+    },
+    {
+      "year": 1992,
+      "count": 14,
+      "tracks": [
+        {
+          "name": "Change",
+          "artist": "Blind Melon"
+        },
+        {
+          "name": "Nuthin' But A \"G\" Thang",
+          "artist": "Dr. Dre"
+        },
+        {
+          "name": "Learning to Live",
+          "artist": "Dream Theater"
+        },
+        {
+          "name": "Wait for Sleep",
+          "artist": "Dream Theater"
+        },
+        {
+          "name": "Just Another Day",
+          "artist": "Jon Secada"
+        },
+        {
+          "name": "Drive",
+          "artist": "R.E.M."
+        },
+        {
+          "name": "Man On The Moon",
+          "artist": "R.E.M."
+        },
+        {
+          "name": "Try Not To Breathe",
+          "artist": "R.E.M."
+        },
+        {
+          "name": "Remedy",
+          "artist": "The Black Crowes"
+        },
+        {
+          "name": "Thorn In My Pride",
+          "artist": "The Black Crowes"
+        },
+        {
+          "name": "State of Love and Trust",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Yellow Ledbetter",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Let Me Sleep (It's Christmas Time)",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Breath and a Scream",
+          "artist": "Pearl Jam"
+        }
+      ]
+    },
+    {
+      "year": 1993,
+      "count": 12,
+      "tracks": [
+        {
+          "name": "Mr. Jones",
+          "artist": "Counting Crows"
+        },
+        {
+          "name": "Broadford Bazaar",
+          "artist": "Jethro Tull"
+        },
+        {
+          "name": "Alone",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Daughter",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Linger",
+          "artist": "The Cranberries"
+        },
+        {
+          "name": "Cherub Rock",
+          "artist": "The Smashing Pumpkins"
+        },
+        {
+          "name": "Rocket",
+          "artist": "The Smashing Pumpkins"
+        },
+        {
+          "name": "(Lay Your Head On My) Pillow",
+          "artist": "Tony! Toni! Toné!"
+        },
+        {
+          "name": "Rearviewmirror",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Animal",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Dissident",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Elderly Woman Behind The Counter in a Small Town",
+          "artist": "Pearl Jam"
+        }
+      ]
+    },
+    {
+      "year": 1994,
+      "count": 21,
+      "tracks": [
+        {
+          "name": "Don't Follow",
+          "artist": "Alice In Chains"
+        },
+        {
+          "name": "Nutshell",
+          "artist": "Alice In Chains"
+        },
+        {
+          "name": "Space-Dye Vest",
+          "artist": "Dream Theater"
+        },
+        {
+          "name": "The Great Escape/The Last Of You/Fallin' From The Moon (Medley)",
+          "artist": "Marillion"
+        },
+        {
+          "name": "Heat Miser",
+          "artist": "Massive Attack"
+        },
+        {
+          "name": "All Apologies - Live",
+          "artist": "Nirvana"
+        },
+        {
+          "name": "Southernplayalisticadillacmuzik",
+          "artist": "Outkast"
+        },
+        {
+          "name": "My Iron Lung",
+          "artist": "Radiohead"
+        },
+        {
+          "name": "Don't Cry",
+          "artist": "Seal"
+        },
+        {
+          "name": "Kiss from a Rose",
+          "artist": "Seal"
+        },
+        {
+          "name": "My Wave",
+          "artist": "Soundgarden"
+        },
+        {
+          "name": "Spoonman",
+          "artist": "Soundgarden"
+        },
+        {
+          "name": "Creep",
+          "artist": "TLC"
+        },
+        {
+          "name": "Descending",
+          "artist": "The Black Crowes"
+        },
+        {
+          "name": "Nonfiction",
+          "artist": "The Black Crowes"
+        },
+        {
+          "name": "Ode To My Family",
+          "artist": "The Cranberries"
+        },
+        {
+          "name": "Say It Ain't So - Remix",
+          "artist": "Weezer"
+        },
+        {
+          "name": "Here Comes the Hotstepper",
+          "artist": "iNi Kamoze"
+        },
+        {
+          "name": "Better Man",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Corduroy",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Fell On Black Days - Video Version Edit",
+          "artist": "Soundgarden"
+        }
+      ]
+    },
+    {
+      "year": 1995,
+      "count": 13,
+      "tracks": [
+        {
+          "name": "Walk",
+          "artist": "Blind Melon"
+        },
+        {
+          "name": "settled land",
+          "artist": "Echolyn"
+        },
+        {
+          "name": "Walking On Air",
+          "artist": "King Crimson"
+        },
+        {
+          "name": "Return of the Mack",
+          "artist": "Mark Morrison"
+        },
+        {
+          "name": "I Heard It Through The Grapevine - Single Version (Mono)",
+          "artist": "Marvin Gaye"
+        },
+        {
+          "name": "I Got Id",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Go the Way You Go",
+          "artist": "Spock's Beard"
+        },
+        {
+          "name": "The Doorway",
+          "artist": "Spock's Beard"
+        },
+        {
+          "name": "1979",
+          "artist": "The Smashing Pumpkins"
+        },
+        {
+          "name": "Thirty-Three - Remastered 2012",
+          "artist": "The Smashing Pumpkins"
+        },
+        {
+          "name": "One Time",
+          "artist": "King Crimson"
+        },
+        {
+          "name": "Muzzle - Remastered 2012",
+          "artist": "The Smashing Pumpkins"
+        },
+        {
+          "name": "Tonight, Tonight - Remastered 2012",
+          "artist": "The Smashing Pumpkins"
+        }
+      ]
+    },
+    {
+      "year": 1996,
+      "count": 14,
+      "tracks": [
+        {
+          "name": "I Will Survive",
+          "artist": "CAKE"
+        },
+        {
+          "name": "The Distance",
+          "artist": "CAKE"
+        },
+        {
+          "name": "Let Me Clear My Throat - Live",
+          "artist": "DJ Kool"
+        },
+        {
+          "name": "Criminal",
+          "artist": "Fiona Apple"
+        },
+        {
+          "name": "Virtual Insanity",
+          "artist": "Jamiroquai"
+        },
+        {
+          "name": "In My Tree",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Off He Goes",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Sever",
+          "artist": "Porcupine Tree"
+        },
+        {
+          "name": "Doin' Time - Uptown Dub-Album Version",
+          "artist": "Sublime"
+        },
+        {
+          "name": "Santeria",
+          "artist": "Sublime"
+        },
+        {
+          "name": "The Impression That I Get",
+          "artist": "The Mighty Mighty Bosstones"
+        },
+        {
+          "name": "6th Avenue Heartache",
+          "artist": "The Wallflowers"
+        },
+        {
+          "name": "If You Could Only See",
+          "artist": "Tonic"
+        },
+        {
+          "name": "Dark Matter",
+          "artist": "Porcupine Tree"
+        }
+      ]
+    },
+    {
+      "year": 1997,
+      "count": 10,
+      "tracks": [
+        {
+          "name": "Amor Verdadero",
+          "artist": "Afro-Cuban All Stars"
+        },
+        {
+          "name": "Chan Chan",
+          "artist": "Buena Vista Social Club"
+        },
+        {
+          "name": "Part IX",
+          "artist": "Fates Warning"
+        },
+        {
+          "name": "Concrete Schoolyard",
+          "artist": "Jurassic 5"
+        },
+        {
+          "name": "Sex & Candy",
+          "artist": "Marcy Playground"
+        },
+        {
+          "name": "Estonia",
+          "artist": "Marillion"
+        },
+        {
+          "name": "Karma Police",
+          "artist": "Radiohead"
+        },
+        {
+          "name": "Let Down",
+          "artist": "Radiohead"
+        },
+        {
+          "name": "Subterranean Homesick Alien",
+          "artist": "Radiohead"
+        },
+        {
+          "name": "Gettin' Jiggy Wit It",
+          "artist": "Will Smith"
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "count": 4,
+      "tracks": [
+        {
+          "name": "Finiculi Finicula",
+          "artist": "Luigi Denza"
+        },
+        {
+          "name": "Rosa Parks",
+          "artist": "Outkast"
+        },
+        {
+          "name": "June",
+          "artist": "Spock's Beard"
+        },
+        {
+          "name": "Doctor Worm",
+          "artist": "They Might Be Giants"
+        }
+      ]
+    },
+    {
+      "year": 1999,
+      "count": 8,
+      "tracks": [
+        {
+          "name": "Scene Three: II. Fatal Tragedy",
+          "artist": "Dream Theater"
+        },
+        {
+          "name": "Killing Me Softly With His Song",
+          "artist": "Fugees"
+        },
+        {
+          "name": "When the Water Breaks",
+          "artist": "Liquid Tension Experiment"
+        },
+        {
+          "name": "I Try",
+          "artist": "Macy Gray"
+        },
+        {
+          "name": "Doo Wop (That Thing)",
+          "artist": "Ms. Lauryn Hill"
+        },
+        {
+          "name": "Farmhouse",
+          "artist": "Phish"
+        },
+        {
+          "name": "Piano Lessons",
+          "artist": "Porcupine Tree"
+        },
+        {
+          "name": "Stranger By The Minute",
+          "artist": "Porcupine Tree"
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "count": 14,
+      "tracks": [
+        {
+          "name": "The Habanero Reel",
+          "artist": "Ian Anderson"
+        },
+        {
+          "name": "The Secret Language Of Birds",
+          "artist": "Ian Anderson"
+        },
+        {
+          "name": "The Water Carrier",
+          "artist": "Ian Anderson"
+        },
+        {
+          "name": "Other Side",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "Losing My Edge",
+          "artist": "LCD Soundsystem"
+        },
+        {
+          "name": "Ride Wit Me",
+          "artist": "Nelly"
+        },
+        {
+          "name": "I'm Like A Bird",
+          "artist": "Nelly Furtado"
+        },
+        {
+          "name": "Turn Off The Light",
+          "artist": "Nelly Furtado"
+        },
+        {
+          "name": "Ms. Jackson",
+          "artist": "Outkast"
+        },
+        {
+          "name": "Everything in Its Right Place",
+          "artist": "Radiohead"
+        },
+        {
+          "name": "The Galway Girl",
+          "artist": "Steve Earle"
+        },
+        {
+          "name": "Hello Operator",
+          "artist": "The White Stripes"
+        },
+        {
+          "name": "We All Need Some Light",
+          "artist": "Transatlantic"
+        },
+        {
+          "name": "Crown of Thorns - Live in Seattle, Washington - November 5 2000",
+          "artist": "Pearl Jam"
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "count": 10,
+      "tracks": [
+        {
+          "name": "Amber",
+          "artist": "311"
+        },
+        {
+          "name": "Fallin'",
+          "artist": "Alicia Keys"
+        },
+        {
+          "name": "Short Skirt / Long Jacket",
+          "artist": "CAKE"
+        },
+        {
+          "name": "Worst Comes To Worst - Edited",
+          "artist": "Dilated Peoples"
+        },
+        {
+          "name": "Don't Know Why",
+          "artist": "Norah Jones"
+        },
+        {
+          "name": "Baby You'Re My Light",
+          "artist": "Richard Hawley"
+        },
+        {
+          "name": "Schism",
+          "artist": "TOOL"
+        },
+        {
+          "name": "Fell In Love With a Girl",
+          "artist": "The White Stripes"
+        },
+        {
+          "name": "Island In The Sun",
+          "artist": "Weezer"
+        },
+        {
+          "name": "In the Waiting Line",
+          "artist": "Zero 7"
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "count": 14,
+      "tracks": [
+        {
+          "name": "100 Years",
+          "artist": "Five For Fighting"
+        },
+        {
+          "name": "Golden Age of Radio",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "Kathleen",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "What's Golden",
+          "artist": "Jurassic 5"
+        },
+        {
+          "name": "Rock Your Body",
+          "artist": "Justin Timberlake"
+        },
+        {
+          "name": "Somewhere Only We Know",
+          "artist": "Keane"
+        },
+        {
+          "name": "Sunday Morning",
+          "artist": "Maroon 5"
+        },
+        {
+          "name": "This Love",
+          "artist": "Maroon 5"
+        },
+        {
+          "name": "Blackest Eyes",
+          "artist": "Porcupine Tree"
+        },
+        {
+          "name": "Heartattack In A Layby",
+          "artist": "Porcupine Tree"
+        },
+        {
+          "name": "Trains",
+          "artist": "Porcupine Tree"
+        },
+        {
+          "name": "Starfish & Coffee - Live from One Nite Alone Tour 2002",
+          "artist": "Prince"
+        },
+        {
+          "name": "Can't Stop",
+          "artist": "Red Hot Chili Peppers"
+        },
+        {
+          "name": "Fight Test",
+          "artist": "The Flaming Lips"
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "count": 15,
+      "tracks": [
+        {
+          "name": "You Sent Me Flying / Cherry",
+          "artist": "Amy Winehouse"
+        },
+        {
+          "name": "Take Me Out",
+          "artist": "Franz Ferdinand"
+        },
+        {
+          "name": "Daughters",
+          "artist": "John Mayer"
+        },
+        {
+          "name": "California",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "You Don't Make It Easy Babe",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "Heaven",
+          "artist": "Los Lonely Boys"
+        },
+        {
+          "name": "Bowtie (feat. Sleepy Brown & Jazze Pha)",
+          "artist": "Outkast"
+        },
+        {
+          "name": "The Way You Move (feat. Sleepy Brown) - Radio Mix",
+          "artist": "Outkast"
+        },
+        {
+          "name": "Fatal",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "I Am Mine",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Here Comes the Flood - Live",
+          "artist": "Peter Gabriel"
+        },
+        {
+          "name": "On The Ledge",
+          "artist": "Richard Hawley"
+        },
+        {
+          "name": "You Don'T Miss Your Water (Till Your Well Runs Dry)",
+          "artist": "Richard Hawley"
+        },
+        {
+          "name": "Inertiatic Esp",
+          "artist": "The Mars Volta"
+        },
+        {
+          "name": "I Want to Be the Boy to Warm Your Mother's Heart",
+          "artist": "The White Stripes"
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "count": 6,
+      "tracks": [
+        {
+          "name": "I'm Shipping Up To Boston",
+          "artist": "Dropkick Murphys"
+        },
+        {
+          "name": "One Evening",
+          "artist": "Feist"
+        },
+        {
+          "name": "King Without a Crown",
+          "artist": "Matisyahu"
+        },
+        {
+          "name": "Bukowski",
+          "artist": "Modest Mouse"
+        },
+        {
+          "name": "Float On",
+          "artist": "Modest Mouse"
+        },
+        {
+          "name": "Yeah!",
+          "artist": "USHER"
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "count": 12,
+      "tracks": [
+        {
+          "name": "Starchild",
+          "artist": "Jamiroquai"
+        },
+        {
+          "name": "Black Horse And The Cherry Tree - Radio Version",
+          "artist": "KT Tunstall"
+        },
+        {
+          "name": "i",
+          "artist": "Kendrick Lamar"
+        },
+        {
+          "name": "Be Without You - Kendu Mix",
+          "artist": "Mary J. Blige"
+        },
+        {
+          "name": "I Write Sins Not Tragedies",
+          "artist": "Panic! At The Disco"
+        },
+        {
+          "name": "Lazarus",
+          "artist": "Porcupine Tree"
+        },
+        {
+          "name": "Coles Corner",
+          "artist": "Richard Hawley"
+        },
+        {
+          "name": "The Ocean",
+          "artist": "Richard Hawley"
+        },
+        {
+          "name": "L'Via L'Viaquez",
+          "artist": "The Mars Volta"
+        },
+        {
+          "name": "The Widow",
+          "artist": "The Mars Volta"
+        },
+        {
+          "name": "Tuesday Afternoon (Forever Afternoon) - Edit Single Version",
+          "artist": "The Moody Blues"
+        },
+        {
+          "name": "The Denial Twist",
+          "artist": "The White Stripes"
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "count": 16,
+      "tracks": [
+        {
+          "name": "He Can Only Hold Her",
+          "artist": "Amy Winehouse"
+        },
+        {
+          "name": "You Know I'm No Good",
+          "artist": "Amy Winehouse"
+        },
+        {
+          "name": "Put Your Records On",
+          "artist": "Corinne Bailey Rae"
+        },
+        {
+          "name": "Online",
+          "artist": "Gnarls Barkley"
+        },
+        {
+          "name": "Good Man",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "Here at the Right Time",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "In the Dark",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "Monster Ballads",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "Inside Job",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Finally Moving",
+          "artist": "Pretty Lights"
+        },
+        {
+          "name": "Fury",
+          "artist": "Prince"
+        },
+        {
+          "name": "Vicarious",
+          "artist": "TOOL"
+        },
+        {
+          "name": "She Moves In Her Own Way",
+          "artist": "The Kooks"
+        },
+        {
+          "name": "Meccamputechture",
+          "artist": "The Mars Volta"
+        },
+        {
+          "name": "Viscera Eyes",
+          "artist": "The Mars Volta"
+        },
+        {
+          "name": "Phantom Limb",
+          "artist": "The Shins"
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "count": 22,
+      "tracks": [
+        {
+          "name": "Valerie - Live At BBC Radio 1 Live Lounge, London / 2007",
+          "artist": "Amy Winehouse"
+        },
+        {
+          "name": "Billie Jean",
+          "artist": "Chris Cornell"
+        },
+        {
+          "name": "Hard Sun",
+          "artist": "Eddie Vedder"
+        },
+        {
+          "name": "Many Moons",
+          "artist": "Janelle Monáe"
+        },
+        {
+          "name": "Sincerely, Jane",
+          "artist": "Janelle Monáe"
+        },
+        {
+          "name": "Empty Hearts",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "Right Moves",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "To The Dogs Or Whoever",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "Wait For Love (You Know You Will)",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "Hold On",
+          "artist": "KT Tunstall"
+        },
+        {
+          "name": "Valerie (feat. Amy Winehouse) - Version Revisited",
+          "artist": "Mark Ronson"
+        },
+        {
+          "name": "Back At Your Door",
+          "artist": "Maroon 5"
+        },
+        {
+          "name": "Makes Me Wonder",
+          "artist": "Maroon 5"
+        },
+        {
+          "name": "Dashboard",
+          "artist": "Modest Mouse"
+        },
+        {
+          "name": "teachme",
+          "artist": "Musiq Soulchild"
+        },
+        {
+          "name": "Roll River Roll",
+          "artist": "Richard Hawley"
+        },
+        {
+          "name": "Serious",
+          "artist": "Richard Hawley"
+        },
+        {
+          "name": "Tonight the Streets Are Ours",
+          "artist": "Richard Hawley"
+        },
+        {
+          "name": "Vickers Road",
+          "artist": "Richard Hawley"
+        },
+        {
+          "name": "Smooth (feat. Rob Thomas)",
+          "artist": "Santana"
+        },
+        {
+          "name": "Your Lips Are Red",
+          "artist": "St. Vincent"
+        },
+        {
+          "name": "Believe",
+          "artist": "The Bravery"
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "count": 8,
+      "tracks": [
+        {
+          "name": "Chasing Pavements",
+          "artist": "Adele"
+        },
+        {
+          "name": "Violet Stars Happy Hunting!!! (feat. The Skunks)",
+          "artist": "Janelle Monáe"
+        },
+        {
+          "name": "Sex On Fire",
+          "artist": "Kings of Leon"
+        },
+        {
+          "name": "Never Give You Up (feat. Stevie Wonder & CJ)",
+          "artist": "Raphael Saadiq"
+        },
+        {
+          "name": "Sometimes",
+          "artist": "Raphael Saadiq"
+        },
+        {
+          "name": "Magic",
+          "artist": "Robin Thicke"
+        },
+        {
+          "name": "Sidestep",
+          "artist": "Robin Thicke"
+        },
+        {
+          "name": "Strasbourg / St. Denis",
+          "artist": "Roy Hargrove"
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "count": 11,
+      "tracks": [
+        {
+          "name": "Victorian Brickwork",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Earth - Solo Piano",
+          "artist": "Brian Crain"
+        },
+        {
+          "name": "The High Road",
+          "artist": "Broken Bells"
+        },
+        {
+          "name": "Don't Gotta Work It Out",
+          "artist": "Fitz and The Tantrums"
+        },
+        {
+          "name": "No You Girls",
+          "artist": "Franz Ferdinand"
+        },
+        {
+          "name": "Haven't Met You Yet",
+          "artist": "Michael Bublé"
+        },
+        {
+          "name": "Got Some",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "The Fixer",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Colonized Mind",
+          "artist": "Prince"
+        },
+        {
+          "name": "Open up Your Door",
+          "artist": "Richard Hawley"
+        },
+        {
+          "name": "I And Love And You",
+          "artist": "The Avett Brothers"
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "count": 10,
+      "tracks": [
+        {
+          "name": "Bright Lights Bigger City",
+          "artist": "CeeLo Green"
+        },
+        {
+          "name": "MoneyGrabber",
+          "artist": "Fitz and The Tantrums"
+        },
+        {
+          "name": "Smoke And Mirrors",
+          "artist": "Gotye"
+        },
+        {
+          "name": "Orbital",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "The Remnant",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "Stop For A Minute",
+          "artist": "Keane"
+        },
+        {
+          "name": "Tighten Up",
+          "artist": "The Black Keys"
+        },
+        {
+          "name": "The Price",
+          "artist": "The Steeldrivers"
+        },
+        {
+          "name": "Hurricane Season",
+          "artist": "Trombone Shorty"
+        },
+        {
+          "name": "Kingmaker",
+          "artist": "Big Big Train"
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "count": 9,
+      "tracks": [
+        {
+          "name": "Half Time",
+          "artist": "Amy Winehouse"
+        },
+        {
+          "name": "Valerie - '68 Version",
+          "artist": "Amy Winehouse"
+        },
+        {
+          "name": "Call It What You Want",
+          "artist": "Foster The People"
+        },
+        {
+          "name": "Houdini",
+          "artist": "Foster The People"
+        },
+        {
+          "name": "Somebody That I Used To Know",
+          "artist": "Gotye"
+        },
+        {
+          "name": "State Of The Art",
+          "artist": "Gotye"
+        },
+        {
+          "name": "Mamma Knows Best",
+          "artist": "Jessie J"
+        },
+        {
+          "name": "The Walk",
+          "artist": "Mayer Hawthorne"
+        },
+        {
+          "name": "Codex",
+          "artist": "Radiohead"
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "count": 22,
+      "tracks": [
+        {
+          "name": "Untouchable, Pt. 2",
+          "artist": "Anathema"
+        },
+        {
+          "name": "A Boy in Darkness",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Hedgerow",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Judas Unrepentant",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Summoned By Bells",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "The First Rebreather",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Uncle Jack",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Upton Heath",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Winchester from St Giles' Hill",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "When I Was Your Man",
+          "artist": "Bruno Mars"
+        },
+        {
+          "name": "Kangaroo Court",
+          "artist": "Capital Cities"
+        },
+        {
+          "name": "Dinner for Two",
+          "artist": "David Byrne"
+        },
+        {
+          "name": "Ice Age",
+          "artist": "David Byrne"
+        },
+        {
+          "name": "Optimist",
+          "artist": "David Byrne"
+        },
+        {
+          "name": "Weekend in the Dust",
+          "artist": "David Byrne"
+        },
+        {
+          "name": "Matlock - Theme from the Television Series",
+          "artist": "Dominik Hauser"
+        },
+        {
+          "name": "Bad Religion",
+          "artist": "Frank Ocean"
+        },
+        {
+          "name": "Love Interruption",
+          "artist": "Jack White"
+        },
+        {
+          "name": "Love Is Making Its Way Back Home",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "One More Night",
+          "artist": "Maroon 5"
+        },
+        {
+          "name": "I Keep Forgettin' (Every Time You're Near)",
+          "artist": "Michael McDonald"
+        },
+        {
+          "name": "40 Mark Strasse",
+          "artist": "The Shins"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "count": 20,
+      "tracks": [
+        {
+          "name": "Curator of Butterflies",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "East Coast Racer",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Keeper of Abbeys",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Leopards",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Swan Hunter",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "The Lovers",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "The Permanent Way",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Farrah Fawcett Hair",
+          "artist": "Capital Cities"
+        },
+        {
+          "name": "Give Life Back to Music",
+          "artist": "Daft Punk"
+        },
+        {
+          "name": "Instant Crush (feat. Julian Casablancas)",
+          "artist": "Daft Punk"
+        },
+        {
+          "name": "6am",
+          "artist": "Fitz and The Tantrums"
+        },
+        {
+          "name": "Cherry Wine - Live",
+          "artist": "Hozier"
+        },
+        {
+          "name": "Dance Apocalyptic",
+          "artist": "Janelle Monáe"
+        },
+        {
+          "name": "Electric Lady (feat. Solange)",
+          "artist": "Janelle Monáe"
+        },
+        {
+          "name": "What an Experience",
+          "artist": "Janelle Monáe"
+        },
+        {
+          "name": "3AM",
+          "artist": "Matchbox Twenty"
+        },
+        {
+          "name": "Future Days",
+          "artist": "Pearl Jam"
+        },
+        {
+          "name": "Ooo La La",
+          "artist": "Robin Thicke"
+        },
+        {
+          "name": "I've Told You Now",
+          "artist": "Sam Smith"
+        },
+        {
+          "name": "Nirvana",
+          "artist": "Sam Smith"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "count": 12,
+      "tracks": [
+        {
+          "name": "Anathema",
+          "artist": "Anathema"
+        },
+        {
+          "name": "Ariel",
+          "artist": "Anathema"
+        },
+        {
+          "name": "The Silence of Daylight",
+          "artist": "Bit Brigade"
+        },
+        {
+          "name": "From Eden",
+          "artist": "Hozier"
+        },
+        {
+          "name": "It Will Come Back",
+          "artist": "Hozier"
+        },
+        {
+          "name": "Uptown Funk (feat. Bruno Mars)",
+          "artist": "Mark Ronson"
+        },
+        {
+          "name": "Happy - From \"Despicable Me 2\"",
+          "artist": "Pharrell Williams"
+        },
+        {
+          "name": "Little Monster",
+          "artist": "Royal Blood"
+        },
+        {
+          "name": "Chan Chan (feat. Ignacio Perez Borrell & Igor Rakuz Izik)",
+          "artist": "The Human Experience"
+        },
+        {
+          "name": "A Loneliness",
+          "artist": "The Pineapple Thief"
+        },
+        {
+          "name": "Seasons Past",
+          "artist": "The Pineapple Thief"
+        },
+        {
+          "name": "Shut Up and Dance",
+          "artist": "WALK THE MOON"
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "count": 4,
+      "tracks": [
+        {
+          "name": "Where the Night Goes",
+          "artist": "Josh Ritter"
+        },
+        {
+          "name": "Closer",
+          "artist": "Lemaitre"
+        },
+        {
+          "name": "I Still Want You",
+          "artist": "Richard Hawley"
+        },
+        {
+          "name": "Tuesday PM",
+          "artist": "Richard Hawley"
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "count": 16,
+      "tracks": [
+        {
+          "name": "Brooklands",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "London Plane",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Telling the Bees",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "The Transit of Venus Across the Sun",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Winkie",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "24K Magic",
+          "artist": "Bruno Mars"
+        },
+        {
+          "name": "Chunky",
+          "artist": "Bruno Mars"
+        },
+        {
+          "name": "Redbone",
+          "artist": "Childish Gambino"
+        },
+        {
+          "name": "Pink + White",
+          "artist": "Frank Ocean"
+        },
+        {
+          "name": "CAN'T STOP THE FEELING! (from DreamWorks Animation's \"TROLLS\")",
+          "artist": "Justin Timberlake"
+        },
+        {
+          "name": "Love Like That",
+          "artist": "Mayer Hawthorne"
+        },
+        {
+          "name": "Against All Odds (Take a Look at Me Now) - 2016 Remaster",
+          "artist": "Phil Collins"
+        },
+        {
+          "name": "Cheap Thrills",
+          "artist": "Sia"
+        },
+        {
+          "name": "No Man's Land",
+          "artist": "The Pineapple Thief"
+        },
+        {
+          "name": "The Final Thing on My Mind",
+          "artist": "The Pineapple Thief"
+        },
+        {
+          "name": "Animal Spirits",
+          "artist": "Vulfpeck"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "count": 24,
+      "tracks": [
+        {
+          "name": "Springfield",
+          "artist": "Anathema"
+        },
+        {
+          "name": "The Optimist",
+          "artist": "Anathema"
+        },
+        {
+          "name": "As the Crow Flies",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Grimspound",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Meadowland",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Snowfalls",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "The Ivy Gate",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Hot Saucer (feat. Musiq Soulchild & Big Daddy Kane)",
+          "artist": "Bootsy Collins"
+        },
+        {
+          "name": "Ladies Nite (feat. MC Eiht & BlvckSeeds)",
+          "artist": "Bootsy Collins"
+        },
+        {
+          "name": "Feels (feat. Pharrell Williams, Katy Perry & Big Sean)",
+          "artist": "Calvin Harris"
+        },
+        {
+          "name": "Attention",
+          "artist": "Charlie Puth"
+        },
+        {
+          "name": "How Long",
+          "artist": "Charlie Puth"
+        },
+        {
+          "name": "I Was Wrong",
+          "artist": "Chris Stapleton"
+        },
+        {
+          "name": "Midnight Train To Memphis",
+          "artist": "Chris Stapleton"
+        },
+        {
+          "name": "Without Your Love",
+          "artist": "Chris Stapleton"
+        },
+        {
+          "name": "Truth",
+          "artist": "Kamasi Washington"
+        },
+        {
+          "name": "Islands (Live in Chicago 28 June 2017)",
+          "artist": "King Crimson"
+        },
+        {
+          "name": "Starless (Live in Chicago 28 June 2017)",
+          "artist": "King Crimson"
+        },
+        {
+          "name": "Goose",
+          "artist": "Polyphia"
+        },
+        {
+          "name": "Loud",
+          "artist": "Polyphia"
+        },
+        {
+          "name": "The Worst",
+          "artist": "Polyphia"
+        },
+        {
+          "name": "Hole in Your Heart",
+          "artist": "Royal Blood"
+        },
+        {
+          "name": "Too Good At Goodbyes",
+          "artist": "Sam Smith"
+        },
+        {
+          "name": "The Sage",
+          "artist": "White Moth Black Butterfly"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "count": 9,
+      "tracks": [
+        {
+          "name": "Havana (feat. Young Thug)",
+          "artist": "Camila Cabello"
+        },
+        {
+          "name": "Don't Judge Me",
+          "artist": "Janelle Monáe"
+        },
+        {
+          "name": "Happy & Sad",
+          "artist": "Kacey Musgraves"
+        },
+        {
+          "name": "Easter - Live at the Royal Albert Hall",
+          "artist": "Marillion"
+        },
+        {
+          "name": "Sapphire",
+          "artist": "Nyu."
+        },
+        {
+          "name": "Hey Look Ma, I Made It",
+          "artist": "Panic! At The Disco"
+        },
+        {
+          "name": "Shed a Light",
+          "artist": "The Pineapple Thief"
+        },
+        {
+          "name": "White Mist",
+          "artist": "The Pineapple Thief"
+        },
+        {
+          "name": "Rainbow",
+          "artist": "Kacey Musgraves"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "count": 3,
+      "tracks": [
+        {
+          "name": "Homesong",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Almost (Sweet Music)",
+          "artist": "Hozier"
+        },
+        {
+          "name": "Blinding Lights",
+          "artist": "The Weeknd"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "count": 7,
+      "tracks": [
+        {
+          "name": "Cold",
+          "artist": "Chris Stapleton"
+        },
+        {
+          "name": "Levitating (feat. DaBaby)",
+          "artist": "Dua Lipa"
+        },
+        {
+          "name": "Dreamsicle",
+          "artist": "Jason Isbell and the 400 Unit"
+        },
+        {
+          "name": "Letting You Go",
+          "artist": "Jason Isbell and the 400 Unit"
+        },
+        {
+          "name": "Trouble’s Coming",
+          "artist": "Royal Blood"
+        },
+        {
+          "name": "Out of Line",
+          "artist": "The Pineapple Thief"
+        },
+        {
+          "name": "In Your Eyes",
+          "artist": "The Weeknd"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "count": 7,
+      "tracks": [
+        {
+          "name": "Atlantic Cable",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Common Ground",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Lanterna",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Proper Jack Froster",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "Broken Horses",
+          "artist": "Brandi Carlile"
+        },
+        {
+          "name": "hookup scene",
+          "artist": "Kacey Musgraves"
+        },
+        {
+          "name": "Typhoons",
+          "artist": "Royal Blood"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "count": 3,
+      "tracks": [
+        {
+          "name": "Snowfalls (At the Boerderij)",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "The Crow and the Nightingale",
+          "artist": "Marillion"
+        },
+        {
+          "name": "Pana-vision",
+          "artist": "The Smile"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "count": 3,
+      "tracks": [
+        {
+          "name": "Loving You On My Mind",
+          "artist": "Chris Stapleton"
+        },
+        {
+          "name": "White Horse",
+          "artist": "Chris Stapleton"
+        },
+        {
+          "name": "High Waters",
+          "artist": "Royal Blood"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "count": 1,
+      "tracks": [
+        {
+          "name": "Love Is the Light",
+          "artist": "Big Big Train"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "count": 5,
+      "tracks": [
+        {
+          "name": "BAILE INoLVIDABLE",
+          "artist": "Bad Bunny"
+        },
+        {
+          "name": "TURiSTA",
+          "artist": "Bad Bunny"
+        },
+        {
+          "name": "The Last English King (Live)",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "July Nights",
+          "artist": "Nate Cody"
+        },
+        {
+          "name": "spring again.",
+          "artist": "Nate Cody"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "count": 4,
+      "tracks": [
+        {
+          "name": "Light Without Heat",
+          "artist": "Big Big Train"
+        },
+        {
+          "name": "God Was Showing Off",
+          "artist": "Bruno Mars"
+        },
+        {
+          "name": "I Just Might",
+          "artist": "Bruno Mars"
+        },
+        {
+          "name": "On My Soul",
+          "artist": "Bruno Mars"
+        }
+      ]
+    }
+  ]
+}
