@@ -461,6 +461,11 @@ section:first-of-type {
     text-align: center;
 }
 
+.top-artist-item > a {
+    display: block;
+    width: 100%;
+}
+
 .top-artist-img {
     width: 100%;
     aspect-ratio: 1;

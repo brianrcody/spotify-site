@@ -180,13 +180,15 @@ function renderTopArtists(data) {
                 text: (artist.name || '?')[0]
             }));
         }
+        const imgLink = el('a', { href: artist.spotify_url || '#', target: '_blank', rel: 'noopener noreferrer' });
+        imgLink.appendChild(imgDiv);
 
         const nameDiv = el('div', { className: 'top-artist-name' }, [
             el('span', { className: 'rank-dot' }),
             link(artist.name, artist.spotify_url || '#'),
         ]);
 
-        grid.appendChild(el('div', { className: 'top-artist-item' }, [imgDiv, nameDiv]));
+        grid.appendChild(el('div', { className: 'top-artist-item' }, [imgLink, nameDiv]));
     }
 
     container.appendChild(grid);
