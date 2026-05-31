@@ -731,12 +731,32 @@ section:first-of-type {
 #site-footer {
     padding: 24px 48px;
     border-top: 1px solid #2A2820;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
+
 
 #last-updated-label {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 10px;
     color: #5A5548;
+}
+
+#copyright {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: #5A5548;
+    text-align: center;
+}
+
+#copyright a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#copyright a:hover {
+    color: #8C8678;
 }
 
 /* ============================================================
