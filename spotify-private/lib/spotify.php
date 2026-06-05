@@ -19,6 +19,7 @@ function get_access_token(): string
 {
     $cache_file = PRIVATE_DIR . '/token-cache.json';
 
+    // Fast path: token is still valid — no locking needed.
     $cached = file_exists($cache_file)
         ? (json_decode(file_get_contents($cache_file), true) ?? [])
         : [];
@@ -28,40 +29,68 @@ function get_access_token(): string
         return $cached['access_token'];
     }
 
-    // Use the cached refresh token if available; fall back to the seed in config.php.
-    $refresh_token = $cached['refresh_token'] ?? SPOTIFY_REFRESH_TOKEN;
-
-    $ch = curl_init('https://accounts.spotify.com/api/token');
-    curl_setopt_array($ch, [
-        CURLOPT_POST           => true,
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_HTTPHEADER     => ['Content-Type: application/x-www-form-urlencoded'],
-        CURLOPT_POSTFIELDS     => http_build_query([
-            'grant_type'    => 'refresh_token',
-            'refresh_token' => $refresh_token,
-            'client_id'     => SPOTIFY_CLIENT_ID,
-        ]),
-    ]);
-
-    $body = curl_exec($ch);
-    $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    curl_close($ch);
-
-    if ($code !== 200) {
-        throw new RuntimeException("Token refresh failed (HTTP $code): $body");
+    // Token is stale — acquire an exclusive lock before refreshing. Multiple
+    // PHP processes (recently-played + now-playing) can race here on first load
+    // when the token is expired. Without the lock, both consume the PKCE refresh
+    // token simultaneously; Spotify invalidates it after the first use, so the
+    // second caller gets a 400 and throws.
+    $lock_file = $cache_file . '.lock';
+    $lock = fopen($lock_file, 'c');
+    if (!flock($lock, LOCK_EX)) {
+        fclose($lock);
+        throw new RuntimeException('Could not acquire token cache lock');
     }
 
-    $data = json_decode($body, true);
+    try {
+        // Re-read under the lock — another process may have refreshed while we waited.
+        $cached = file_exists($cache_file)
+            ? (json_decode(file_get_contents($cache_file), true) ?? [])
+            : [];
 
-    // Spotify may rotate the refresh token on each use (PKCE). Persist the new
-    // one if provided so the old token isn't used on the next refresh cycle.
-    file_put_contents($cache_file, json_encode([
-        'access_token'  => $data['access_token'],
-        'expires_at'    => time() + ($data['expires_in'] ?? 3600),
-        'refresh_token' => $data['refresh_token'] ?? $refresh_token,
-    ]));
+        if (isset($cached['access_token'], $cached['expires_at'])
+            && $cached['expires_at'] > time() + 60) {
+            return $cached['access_token'];
+        }
 
-    return $data['access_token'];
+        // Use the cached refresh token if available; fall back to the seed in config.php.
+        $refresh_token = $cached['refresh_token'] ?? SPOTIFY_REFRESH_TOKEN;
+
+        $ch = curl_init('https://accounts.spotify.com/api/token');
+        curl_setopt_array($ch, [
+            CURLOPT_POST           => true,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_HTTPHEADER     => ['Content-Type: application/x-www-form-urlencoded'],
+            CURLOPT_POSTFIELDS     => http_build_query([
+                'grant_type'    => 'refresh_token',
+                'refresh_token' => $refresh_token,
+                'client_id'     => SPOTIFY_CLIENT_ID,
+                'client_secret' => SPOTIFY_CLIENT_SECRET,
+            ]),
+        ]);
+
+        $body = curl_exec($ch);
+        $code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+
+        if ($code !== 200) {
+            throw new RuntimeException("Token refresh failed (HTTP $code): $body");
+        }
+
+        $data = json_decode($body, true);
+
+        // Spotify may rotate the refresh token on each use (PKCE). Persist the new
+        // one if provided so the old token isn't used on the next refresh cycle.
+        file_put_contents($cache_file, json_encode([
+            'access_token'  => $data['access_token'],
+            'expires_at'    => time() + ($data['expires_in'] ?? 3600),
+            'refresh_token' => $data['refresh_token'] ?? $refresh_token,
+        ]));
+
+        return $data['access_token'];
+    } finally {
+        flock($lock, LOCK_UN);
+        fclose($lock);
+    }
 }
 
 /**
