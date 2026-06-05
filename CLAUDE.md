@@ -92,7 +92,7 @@ The only file that manages tokens. All other PHP files include it.
 - `json_response()`, `json_error()`, `serve_data_file()` — response helpers.
 
 ### `spotify-private/config.php`
-Defines: `USER_HOME`, `SPOTIFY_CLIENT_ID`, `SPOTIFY_REFRESH_TOKEN`,
+Defines: `USER_HOME`, `SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET`, `SPOTIFY_REFRESH_TOKEN`,
 `SPOTIFY_REDIRECT_URI`, `SETUP_PASSPHRASE`, `PRIVATE_DIR`, `DATA_DIR`.
 
 **Never commit a `config.php` with real credentials.** The file in the repo contains
@@ -201,7 +201,7 @@ expressions are all available.
 **Initial setup (one-time):**
 1. Create a Spotify app at developer.spotify.com, register the redirect URI, add owner email.
 2. Download font woff2 files into `public_html/spotify/fonts/`.
-3. Edit `spotify-private/config.php` with client ID, redirect URI, and passphrase.
+3. Edit `spotify-private/config.php` with client ID, client secret, redirect URI, and passphrase.
 4. Set permissions: `chmod 755 spotify-private/data/`, `chmod 666 token-cache.json`.
 5. Visit `setup/step1.php?key=PASSPHRASE`, authorize, copy the refresh token into `config.php`.
 6. Run `php cron-daily.php` and `php fetch-favorites-mb-official.php` manually to populate data.
